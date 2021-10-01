@@ -1,5 +1,5 @@
 {
-  "name": "eleventy-photo-gallery",
+  "name": "ronakjethwa.photos",
   "version": "1.1.0",
   "description": "A photo gallery starter kit built with the static site generator Eleventy",
   "main": ".eleventy.js",
@@ -15,15 +15,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tannerdolby/eleventy-photo-gallery.git"
+    "url": "git+https://github.com/ronakjethwa/ronakjethwa-gallery.git"
   },
   "bugs": {
-    "url": "https://github.com/tannerdolby/eleventy-photo-gallery/issues"
+    "url": "https://github.com/ronakjethwa/ronakjethwa-gallery/issues"
   },
   "author": {
-    "name": "Tanner Dolby",
-    "email": "tannercdolby@gmail.com",
-    "url": "https://github.com/tannerdolby"
+    "name": "Ronak Jethwa",
+    "email": "ronakjethwa@gmail.com",
+    "url": "https://github.com/ronakjethwa"
   },
   "keywords": [
     "Eleventy",
@@ -31,7 +31,7 @@
     "Photo Gallery",
     "Photo Gallery Template"
   ],
-  "homepage": "https://github.com/tannerdolby/eleventy-photo-gallery#readme",
+  "homepage": "https://github.com/ronakjethwa/ronakjethwa-gallery#readme",
   "license": "MIT",
   "dependencies": {
     "@11ty/eleventy": "^0.12.1",
