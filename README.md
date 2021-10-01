@@ -1,10 +1,6 @@
 # Eleventy Photo Gallery
 
 A starter site for creating your own photo or art gallery using the [Eleventy](https://github.com/11ty/eleventy) static site generator.
-
-## Getting Started
-Quickly generate a [highly performant](https://github.com/ronakjethwa/ronakjethwa-gallery/blob/main/CONTRIBUTING.md#lighthouse-audit-scores) photo gallery from this template by clicking the green [Use Template](https://github.com/ronakjethwa/ronakjethwa-gallery/generate) button. Creating a template repository provides the same directory structure and files as the original project.
-
 ## Features 
 - Responsive and optimized images using `<picture>`
 - Home page with CSS Grid representing gallery of images
