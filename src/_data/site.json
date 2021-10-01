@@ -1,10 +1,10 @@
 {   
     "author": {
-        "firstName": "John",
-        "lastName": "Smith",
-        "email": "foobar@gmail.com",
-        "twitterHandle": "@tannerdolby",
-        "about": "Freelance photographer interested in film and cinematography"
+        "firstName": "Ronak",
+        "lastName": "Jethwa",
+        "email": "ronakjethwa@gmail.com",
+        "twitterHandle": "@ronak_jethwa",
+        "about": "Digital Nomad"
     },
     "socials": {
         "twitter": "https://twitter.com/tannerdolby",
@@ -17,13 +17,13 @@
             "content": "A photo gallery template with stock photos provided from Pexels. Add or remove images from the grid and customize your own image gallery!"
         },
         "gallery": {
-            "content": "A collection of images from John Smith's gallery."
+            "content": "A collection of images from Ronak Jethwa's gallery."
         },
         "featured": {
-            "content": "from John Smith's gallery."
+            "content": "from Ronak Jethwa's gallery."
         },
         "about": {
-            "content": "A page about John Smith, and photography. This template is currently the default version so add your own about me page info here."
+            "content": "A page about Ronak Jethwa, and photography. This template is currently the default version so add your own about me page info here."
         }
 
     }
