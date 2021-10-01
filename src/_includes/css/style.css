@@ -68,20 +68,19 @@ header .intro .home-button {
   color: #222;
   margin-bottom: 14px;
 }
-header .intro .hire-me {
+header .intro .about-me {
   border: 1px solid #111;
-  margin-top: 3px;
   padding: 0.5rem 1rem;
   text-decoration: none;
   height: fit-content;
   height: -moz-fit-content;
-  border-radius: 3px;
+  border-radius: 0.5rem;
   background: #1e262b;
   color: #fff;
   font-weight: 400;
   white-space: nowrap;
 }
-header .intro .hire-me:hover {
+header .intro .about-me:hover {
   background: #1a1f24;
 }
 
