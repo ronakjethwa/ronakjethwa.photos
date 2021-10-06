@@ -153,6 +153,7 @@ header .intro .about-me:hover {
   height: 20rem;
   overflow: hidden;
   border-radius: 2px;
+  margin: 10px;
 }
 .image-grid .image-container a .grid-image {
   object-fit: cover;

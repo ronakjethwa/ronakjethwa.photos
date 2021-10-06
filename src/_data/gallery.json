@@ -1,7 +1,7 @@
 [
     {
-        "title": "Eiffel Tower - Paris, France",
-        "notes": "Highway covered in water",
+        "title": "Eiffel Tower of Paris, France",
+        "notes": "Composite picturesque image of sunset at the Eiffel tower in spring in Paris, France",
         "date": "October 20, 2020",
         "credit": "Ronak Jethwa",
         "src": "01.jpeg",
@@ -9,8 +9,8 @@
         "imgDir": "/images/"
     },
     {
-        "title": "Highway covered in water",
-        "notes": "Highway covered in water",
+        "title": "Public Market of Seattle, Washington",
+        "notes": "Strolling around the famous pike place market on a fine summer evening",
         "date": "October 20, 2020",
         "credit": "Photo by Josh Hild",
         "src": "02.jpeg",
