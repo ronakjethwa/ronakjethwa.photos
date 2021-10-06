@@ -4,7 +4,7 @@
         "date": "October 20, 2020",
         "credit": "Photo by Aldiyar Seitkassymov",
         "linkToAuthor": "https://www.pexels.com/photo/terrace-with-green-plants-on-night-street-3100835/",
-        "src": "terrace-window.jpg",
+        "src": "01.jpeg",
         "alt": "Terrace outside shop window with green plants and pink tree on night street",
         "imgDir": "/images/"
     },
@@ -13,7 +13,7 @@
         "date": "October 20, 2020",
         "credit": "Photo by Josh Hild",
         "linkToAuthor": "https://www.pexels.com/photo/highway-covered-in-water-2524368/",
-        "src": "highway-water.jpg",
+        "src": "02.jpeg",
         "alt": "Skybridge over highway covered in water",
         "imgDir": "/images/"
     },
@@ -22,7 +22,7 @@
         "date": "October 18, 2020",
         "credit": "Photo by Lukas Hartmann",
         "linkToAuthor": "https://www.pexels.com/photo/brown-painted-wall-on-dim-light-1055613/",
-        "src": "benches.jpg",
+        "src": "03.jpeg",
         "alt": "Brown painted wall with two benches and dim light above",
         "imgDir": "/images/"
     },
@@ -31,7 +31,7 @@
         "date": "October 16, 2020",
         "credit": "Photo by Jan Kopriva",
         "linkToAuthor": "https://www.pexels.com/photo/light-streaks-3290601/",
-        "src": "light-streaks.jpg",
+        "src": "04.jpeg",
         "alt": "Red light streaks across a street intersection at night",
         "imgDir": "/images/"
     },
@@ -40,7 +40,7 @@
         "date": "October 14, 2020",
         "credit": "Photo by Pixabay",
         "linkToAuthor": "https://www.pexels.com/photo/abstract-architecture-black-and-white-boardwalk-262367/",
-        "src": "boardwalk.jpg",
+        "src": "05.jpeg",
         "alt": "Abstract architecture black and white boardwalk with glass like floor",
         "imgDir": "/images/"
     },
@@ -49,7 +49,7 @@
         "date": "October 12, 2020",
         "credit": "Photo by Rakicevic Nenad",
         "linkToAuthor": "https://www.pexels.com/photo/silhouette-of-person-holding-glass-mason-jar-1274260/",
-        "src": "glass-jar.jpg",
+        "src": "06.jpeg",
         "alt": "Person holding glass mason jar with night sky background",
         "imgDir": "/images/"
     },
@@ -58,7 +58,7 @@
         "date": "October 11, 2020",
         "credit": "Photo by Bao Dang",
         "linkToAuthor": "https://www.pexels.com/photo/radio-city-music-hall-during-night-time-3700369/",
-        "src": "music-hall.jpg",
+        "src": "07.jpeg",
         "alt": "Music hall with bright lights during night time",
         "imgDir": "/images/"
     },
@@ -67,7 +67,7 @@
         "date": "October 10, 2020",
         "credit": "Photo by Jayson Marquez",
         "linkToAuthor": "https://www.pexels.com/photo/city-building-office-architecture-4850412/",
-        "src": "business-center.jpg",
+        "src": "08.jpeg",
         "alt": "Tall highrise office building with winding architecture",
         "imgDir": "/images/"
     },
@@ -76,7 +76,7 @@
         "date": "October 9, 2020",
         "credit": "Photo by Aleksandar Pasaric",
         "linkToAuthor": "https://www.pexels.com/photo/photo-of-buildings-during-nighttime-2603464/",
-        "src": "highrises-night.jpg",
+        "src": "09.jpeg",
         "alt": "Buildings during nighttime with orange lighting and water below",
         "imgDir": "/images/"
     },
@@ -85,7 +85,7 @@
         "date": "October 11, 2020",
         "credit": "Photo by Sourav Mishra",
         "linkToAuthor": "https://www.pexels.com/photo/water-droplet-digital-wallpaper-1100946/",
-        "src": "water-drop.jpg",
+        "src": "10.png",
         "alt": "Rain drop bursting water particles upwards into the air",
         "imgDir": "/images/"
     },
@@ -94,7 +94,7 @@
         "date": "October 15, 2020",
         "credit": "Photo by Marco Trinidad",
         "linkToAuthor": "https://www.pexels.com/photo/photo-of-empty-road-during-daytime-3295140/",
-        "src": "empty-road.jpg",
+        "src": "11.jpeg",
         "alt": "An empty road during daytime with fog in the background",
         "imgDir": "/images/"
     },
@@ -103,7 +103,7 @@
         "date": "October 23, 2020",
         "credit": "Photo by Artem Saranin",
         "linkToAuthor": "https://www.pexels.com/photo/gasoline-station-during-nighttime-1453781/",
-        "src": "gas-station.jpg",
+        "src": "12.jpeg",
         "alt": "Gasoline station during nighttime with glowing red roof lights",
         "imgDir": "/images/"
     }
