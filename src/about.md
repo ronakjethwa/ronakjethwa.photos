@@ -4,9 +4,6 @@ meta_desc: A page about Ronak Jethwa, and photography. This template is currentl
 url: https://ronakjethwa.photos/about
 img: /images/highway-water-large.jpg
 alt: Terrace outside shop window with green plants and pink tree on night street
-eleventyNavigation:
-  key: About
-  order: 2
 heading: About
 permalink: "/about/"
 layout: main.njk
