@@ -53,7 +53,8 @@ cardType: summary_large_image
                     %}
                     <div class="image-description">
                         <h1 class="h2">{{ image.title }}</h1>
-                        <p>{{ image.credit }} on <a class="credit" href="{{ image.linkToAuthor }}">Pexels</a></p>
+                        <p>{{ image.notes }}</p>
+                        {# <p>{{ image.credit }} #}
                     </div>
                     <div class="prev-next">
                         {% if pagination.href.previous %}
