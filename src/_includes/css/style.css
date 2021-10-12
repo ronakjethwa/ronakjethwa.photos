@@ -496,6 +496,7 @@ h2, .h2 {
   margin: 1.5rem auto 0 auto;
   padding-left: 1rem;
   padding-right: 1rem;
+  max-width: 70vw;
 }
 .image-description h1 {
   margin-bottom: 0.8rem;
