@@ -1,5 +1,5 @@
 ---
-title: About - Eleventy Photo Gallery Template
+title: About - Ronak Jethwa's Photo Gallery
 meta_desc: A page about Ronak Jethwa, and photography. This template is currently the default version so add your own about me page info here.
 url: https://ronakjethwa.photos/about
 img: /images/highway-water-large.jpg
