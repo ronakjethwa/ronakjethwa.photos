@@ -13,12 +13,8 @@ layout: main.njk
 
 # {{ heading }}
 
-Hi, I'm {{ site.author.firstName }} {{ site.author.lastName}}. I carry the blend of front-end and design knowledge that helps me deliver better looking products.
+👋 Hi, I'm {{ site.author.firstName }} {{ site.author.lastName}}. I love capturing moments through my lens and I am based out of Seattle, Washington.
 
-<h2 id="contact-me">Contact</h2>
-
-Feel free to reach out to me by email on [on my email](mailto:{{ site.author.email }}). 
-
-You can also find me on <a href="{{ site.socials.twitter }}" target="_blank">Twitter</a>, <a href="{{ site.socials.instagram }}" target="_blank">Instagram</a> or <a href="{{ site.socials.github}}" target="_blank">GitHub</a>.
+Feel free to email on <a href="mailto:{{ site.author.email }}" target="_blank">{{ site.author.email }}</a> if you want to chat. You can also find me on <a href="{{ site.socials.twitter }}" target="_blank">Twitter</a>, <a href="{{ site.socials.instagram }}" target="_blank">Instagram</a> or <a href="{{ site.socials.github}}" target="_blank">GitHub</a>.
 
 </div>
