@@ -9,6 +9,24 @@
         "imgDir": "/images/"
     },
     {
+        "title": "Boston, Massachusetts",
+        "notes": "♥️♥️♥️",
+        "date": "January 20, 2018",
+        "credit": "Photo by Ronak Jethwa",
+        "src": "14.png",
+        "alt": "Otter Cliffs, Acadia National Park in Maine",
+        "imgDir": "/images/"
+    },  
+    {
+        "title": "Kerry Park, Seattle, Washington",
+        "notes": "For one of the best views of Seattle head to Kerry Park. It's small and is essentially a viewpoint that looks out over Seattle Center, Downtown Seattle and Elliott Bay. The neighborhood is quite wealthy and there are some beautiful homes in the area. One of the best places to stroll around on the regular Seattle evenings.",
+        "date": "February 28, 2021",
+        "credit": "Photo by Ronak Jethwa",
+        "src": "06.jpeg",
+        "alt": "Kerry Park, Seattle, Washington",
+        "imgDir": "/images/"
+    },      
+    {
         "title": "Public Market of Seattle, Washington",
         "notes": "One of the few authentic farmer's markets in the United States. This is a working market that doubles as a tourist attraction. It is filled with food and flower stalls. I particularly enjoyed seeing the catch of the day, given that I don't live in the Pacific NW. It also has artisans who ply their trade right in front of you. Note that I call this a 'working marketing' before I alluded to it being a place tourists might enjoy. Pike had a nice blend of 'real' and 'attraction'",
         "date": "September 5, 2021",
@@ -42,15 +60,6 @@
         "credit": "Photo by Ronak Jethwa",
         "src": "05.jpeg",
         "alt": "Original Starbucks in Seattle",
-        "imgDir": "/images/"
-    },
-    {
-        "title": "Kerry Park, Seattle, Washington",
-        "notes": "For one of the best views of Seattle head to Kerry Park. It's small and is essentially a viewpoint that looks out over Seattle Center, Downtown Seattle and Elliott Bay. The neighborhood is quite wealthy and there are some beautiful homes in the area. One of the best places to stroll around on the regular Seattle evenings.",
-        "date": "February 28, 2021",
-        "credit": "Photo by Ronak Jethwa",
-        "src": "06.jpeg",
-        "alt": "Kerry Park, Seattle, Washington",
         "imgDir": "/images/"
     },
     {
@@ -114,15 +123,6 @@
         "credit": "Photo by Ronak Jethwa",
         "src": "13.jpeg",
         "alt": "Sunrise at Cadillac Mountain in Acadia National Park",
-        "imgDir": "/images/"
-    },
-    {
-        "title": "Boston, Massachusetts",
-        "notes": "♥️♥️♥️",
-        "date": "January 20, 2018",
-        "credit": "Photo by Ronak Jethwa",
-        "src": "14.png",
-        "alt": "Otter Cliffs, Acadia National Park in Maine",
         "imgDir": "/images/"
     },
     {
