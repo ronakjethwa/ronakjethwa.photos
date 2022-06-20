@@ -106,5 +106,32 @@
         "src": "12.jpeg",
         "alt": "Otter Cliffs, Acadia National Park in Maine",
         "imgDir": "/images/"
-    }
+    },
+    {
+        "title": "First Light",
+        "notes": "Cadillac Mountain gave me the most beautiful sunrise of my life in 2017. Cadillac Mountain is one of the first places in USA to witness a sunrise. I woke up so insanely early and sat in the cold until that sun rose. It was beyond worth it. The anticipation of waking up early, feeling the morning chill sink into your bones as you wait, and the excitement of the horizon changing colors is like nothing else.",
+        "date": "August 20, 2017",
+        "credit": "Photo by Ronak Jethwa",
+        "src": "13.jpeg",
+        "alt": "Sunrise at Cadillac Mountain in Acadia National Park",
+        "imgDir": "/images/"
+    },
+    {
+        "title": "Boston, Massachusetts",
+        "notes": "♥️♥️♥️",
+        "date": "January 20, 2018",
+        "credit": "Photo by Ronak Jethwa",
+        "src": "14.png",
+        "alt": "Otter Cliffs, Acadia National Park in Maine",
+        "imgDir": "/images/"
+    },
+    {
+        "title": "Bar Harbor, Maine",
+        "notes": "One of the coldest and finest sunrise I have witnessed so far. This is from Otter Cliff inside Acadia National Park during the month of January. It was cold enough that my phone's battery died in few minutes. Witnessing the sun coming out in that temperature, standing in 2 layers of warm jackets trying to keep my hands warm enough and holding the camera steady enough to get one nice shot, one hell of an adventure it was. Glad that picture turned out to be a good one in the end.",
+        "date": "January 20, 2018",
+        "credit": "Photo by Ronak Jethwa",
+        "src": "15.jpeg",
+        "alt": "Otter Cliffs, Acadia National Park in Maine",
+        "imgDir": "/images/"
+    }    
 ]
