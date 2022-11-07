@@ -25,7 +25,7 @@
         "src": "06.jpeg",
         "alt": "Seattle, Washington",
         "imgDir": "/images/"
-    },      
+    },   
     {
         "title": "Public Market of Seattle, Washington",
         "notes": "One of the few authentic farmer's markets in the United States. This is a working market that doubles as a tourist attraction. It is filled with food and flower stalls. I particularly enjoyed seeing the catch of the day, given that I don't live in the Pacific NW. It also has artisans who ply their trade right in front of you. Note that I call this a 'working marketing' before I alluded to it being a place tourists might enjoy. Pike had a nice blend of 'real' and 'attraction'",
@@ -52,7 +52,7 @@
         "src": "04.jpeg",
         "alt": "Flower Stalls, Pike Place Market, Seattle, Washington",
         "imgDir": "/images/"
-    },
+    },    
     {
         "title": "First Starbucks, Seattle, Washington",
         "notes": "The Original Starbucks, located near the waterfront in Seattle’s Pike Place Market, isn’t the modest 45-year-old sign. This Starbucks is where it all began. The line may be crazy long, the coffee is the same as any other Starbucks, but you go there for the experience. It is one of the most surreal experience to hear the history of the company and order a drink from the very first Starbucks.",
@@ -132,6 +132,33 @@
         "credit": "Photo by Ronak Jethwa",
         "src": "15.jpeg",
         "alt": "Otter Cliffs, Acadia National Park in Maine",
+        "imgDir": "/images/"
+    },
+    {
+        "title": "Mount Rainier, Washington",
+        "notes": "An active volcano, Mount Rainier is the most glaciated peak in the contiguous U.S.A., spawning five major rivers. At a height of 14,410 feet, Mount Rainier is the highest volcanic peak in the contiguous United States. Because of the unpredictable weather climate in the state of washington, you hardly get to see the mountain in all of its glory, but on those couple of clear days when you get to see the mountain, you realize the sheer beauty of it.",
+        "date": "September 25, 2022",
+        "credit": "Photo by Ronak Jethwa",
+        "src": "26.jpg",
+        "alt": "Mount Rainier, Washington",
+        "imgDir": "/images/"
+    },     
+    {
+        "title": "Reflection Lake, Mount Rainier, Washington",
+        "notes": "The views of Mt Rainier from reflection lakes are legendary and with good reason. This is one of the most picturesque area in Mount Rainier National Park. Try to catch the lake in the early morning or evening when the water is still.  If the sky is clear you’ll have an excellent chance to view Mount Rainier reflecting in these beautiful subalpine lakes.",
+        "date": "September 25, 2022",
+        "credit": "Photo by Ronak Jethwa",
+        "src": "27.jpg",
+        "alt": "Mount Rainier, Washington State",
+        "imgDir": "/images/"
+    },
+    {
+        "title": "Picture Lake, Washington",
+        "notes": "Picture Lake is the most incredible sight in the entire of Washington. Located in Northern Washington, Picture Lake is about a 3 hour drive from Seattle. With Mount Shuksan in the background and the wildflowers in the foreground, Picture lake is, well, as pretty as, a post card picture!",
+        "date": "September 26, 2022",
+        "credit": "Photo by Ronak Jethwa",
+        "src": "28.jpg",
+        "alt": "Picture Lake, Washington",
         "imgDir": "/images/"
     }    
 ]
