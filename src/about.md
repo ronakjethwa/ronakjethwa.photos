@@ -15,7 +15,7 @@ layout: main.njk
 
 👋 Hi, I'm {{ site.author.firstName }} {{ site.author.lastName}}. I love capturing moments through my lens. I am currently based out of Seattle, Washington.
 
-More about me at <a href="{{ site.author.dotcom }}" target="_blank">https://ronakjethwa.com</a>. Feel free to email on <a href="mailto:{{ site.author.email }}" target="_blank">{{ site.author.email }}</a> if you want to chat. 
+You can read more about me at <a href="{{ site.author.dotcom }}" target="_blank">https://ronakjethwa.com</a>. Feel free to email on <a href="mailto:{{ site.author.email }}" target="_blank">{{ site.author.email }}</a> if you want to chat.
 
 You can also find me on <a href="{{ site.socials.twitter }}" target="_blank">Twitter</a>, <a href="{{ site.socials.instagram }}" target="_blank">Instagram</a> or <a href="{{ site.socials.github}}" target="_blank">GitHub</a>.
 
