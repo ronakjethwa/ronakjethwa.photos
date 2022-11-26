@@ -19,7 +19,7 @@
     },  
     {
         "title": "Seattle, Washington",
-        "notes": "For one of the best views of Seattle head to Kerry Park. It's small and is essentially a viewpoint that looks out over Seattle Center, Downtown Seattle and Elliott Bay. The neighborhood is quite wealthy and there are some beautiful homes in the area. One of the best places to stroll around on the regular Seattle evenings.",
+        "notes": "Seattle happened by chance. I got enough out of Boston, got myself a new job in the city, which made me pack my bags and make the big move across the country. Seattle has a reputation of being gloomy, which is true for the most part. Nevertheless, the new home has a lot to offer and I've started liking it. To the new beginnings...",
         "date": "February 28, 2021",
         "credit": "Photo by Ronak Jethwa",
         "src": "06.jpeg",
@@ -160,5 +160,32 @@
         "src": "28.jpg",
         "alt": "Picture Lake, Washington",
         "imgDir": "/images/"
-    }    
+    },
+    {
+        "title": "Mount Baker, Washington",
+        "notes": "Mount Baker is the most incredible sight in the entire of Washington. Located in Northern Washington, Picture Lake is about a 3 hour drive from Seattle. With Mount Shuksan in the background and the wildflowers in the foreground, Picture lake is, well, as pretty as, a post card picture!",
+        "date": "September 26, 2022",
+        "credit": "Photo by Ronak Jethwa",
+        "src": "31.jpeg",
+        "alt": "Mount Baker, Washington",
+        "imgDir": "/images/"
+    },    
+    {
+        "title": "Mount Shuksan, Washington",
+        "notes": "Mount Shuksan is the most incredible sight in the entire of Washington. Located in Northern Washington, Picture Lake is about a 3 hour drive from Seattle. With Mount Shuksan in the background and the wildflowers in the foreground, Picture lake is, well, as pretty as, a post card picture!",
+        "date": "September 26, 2022",
+        "credit": "Photo by Ronak Jethwa",
+        "src": "29.jpeg",
+        "alt": "Mount Shuksan, Washington",
+        "imgDir": "/images/"
+    },
+    {
+        "title": "Cape Flattery, Washington",
+        "notes": "Mount Baker is the most incredible sight in the entire of Washington. Located in Northern Washington, Picture Lake is about a 3 hour drive from Seattle. With Mount Shuksan in the background and the wildflowers in the foreground, Picture lake is, well, as pretty as, a post card picture!",
+        "date": "September 26, 2022",
+        "credit": "Photo by Ronak Jethwa",
+        "src": "30.jpeg",
+        "alt": "Cape Flattery, Washington",
+        "imgDir": "/images/"
+    }
 ]
