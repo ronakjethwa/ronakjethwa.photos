@@ -240,6 +240,7 @@ h2, .h2 {
             .gallery-photo {
                 height: 70vh;
                 max-height: 400px;
+                object-fit: contain;
             }
         }
     }
@@ -247,6 +248,7 @@ h2, .h2 {
     .featured-img {
         .showcase-img {
             height: 65vh;
+            min-width: 100%;
         }
     }
  }

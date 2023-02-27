@@ -584,10 +584,12 @@ h2, .h2 {
   .gallery-item a .gallery-photo {
     height: 70vh;
     max-height: 400px;
+    object-fit: contain;
   }
 
   .featured-img .showcase-img {
     height: 65vh;
+    min-width: 100%;
   }
 }
 @media screen and (max-width: 565px) {
