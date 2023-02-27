@@ -240,6 +240,7 @@ h2, .h2 {
             .gallery-photo {
                 height: 70vh;
                 max-height: 400px;
+                object-fit: contain;
             }
         }
     }
