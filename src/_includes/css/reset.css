@@ -52,9 +52,8 @@ a:not([class]) {
 
 /* Make images easier to work with */
 img {
-  max-width: 70%;
+  max-width: 100%;
   display: block;
-  margin-inline: auto;
 }
 
 /* Natural flow and rhythm in articles by default */

@@ -187,5 +187,86 @@
         "src": "30.jpeg",
         "alt": "Cape Flattery, Washington",
         "imgDir": "/images/"
-    }
+    },
+    {
+        "title": "Cape Cod",
+        "notes": "The furthest southest tip of the Massachusetts, United State, Cape Code has been on my bucketlist and of the most soughtful location. Cape Code provides a dramatic backdrop to a surprisingly accessible parts to Atlantic Ocean. Th panaromic views and sunsets make the trip always worth it.",
+        "date": "August 8, 2022",
+        "credit": "Photo by Ronak Jethwa",
+        "src": "17.jpeg",
+        "alt": "Cape Code",
+        "imgDir": "/images/"
+    },  
+    {
+        "title": "Cape Cod, Atlantic Ocean",
+        "notes": "The furthest southest tip of the Massachusetts, United State, Cape Code has been on my bucketlist and of the most soughtful location. Cape Code provides a dramatic backdrop to a surprisingly accessible parts to Atlantic Ocean. Th panaromic views and sunsets make the trip always worth it.",
+        "date": "November 6, 2022",
+        "credit": "Photo by Ronak Jethwa",
+        "src": "18.jpeg",
+        "alt": "Cape Cod, Atlantic Ocean",
+        "imgDir": "/images/"
+    }, 
+    {
+        "title": "Cape Cod Sunsets",
+        "notes": "The furthest southest tip of the Massachusetts, United State, Cape Code has been on my bucketlist and of the most soughtful location. Cape Code provides a dramatic backdrop to a surprisingly accessible parts to Atlantic Ocean. Th panaromic views and sunsets make the trip always worth it.",
+        "date": "November 6, 2022",
+        "credit": "Photo by Ronak Jethwa",
+        "src": "19.jpeg",
+        "alt": "Cape Cod Sunsets",
+        "imgDir": "/images/"
+    },
+    {
+        "title": "Sunrise at Acadia National Park",
+        "notes": "The furthest southest tip of the Massachusetts, United State, Cape Code has been on my bucketlist and of the most soughtful location. Cape Code provides a dramatic backdrop to a surprisingly accessible parts to Atlantic Ocean. Th panaromic views and sunsets make the trip always worth it.",
+        "date": "August 6, 2022",
+        "credit": "Photo by Ronak Jethwa",
+        "src": "20.jpeg",
+        "alt": "Sunrise at Acadia National Park",
+        "imgDir": "/images/"
+    }, 
+    {
+        "title": "Boston Cold Nights",
+        "notes": "The furthest southest tip of the Massachusetts, United State, Cape Code has been on my bucketlist and of the most soughtful location. Cape Code provides a dramatic backdrop to a surprisingly accessible parts to Atlantic Ocean. Th panaromic views and sunsets make the trip always worth it.",
+        "date": "August 8, 2022",
+        "credit": "Photo by Ronak Jethwa",
+        "src": "23.png",
+        "alt": "Boston Cold Nights",
+        "imgDir": "/images/"
+    },               
+    {
+        "title": "Charles River, Boston",
+        "notes": "The furthest southest tip of the Massachusetts, United State, Cape Code has been on my bucketlist and of the most soughtful location. Cape Code provides a dramatic backdrop to a surprisingly accessible parts to Atlantic Ocean. Th panaromic views and sunsets make the trip always worth it.",
+        "date": "August 8, 2022",
+        "credit": "Photo by Ronak Jethwa",
+        "src": "24.jpeg",
+        "alt": "Charles River, Boston",
+        "imgDir": "/images/"
+    }, 
+    {
+        "title": "Fenway Park, Boston",
+        "notes": "The furthest southest tip of the Massachusetts, United State, Cape Code has been on my bucketlist and of the most soughtful location. Cape Code provides a dramatic backdrop to a surprisingly accessible parts to Atlantic Ocean. Th panaromic views and sunsets make the trip always worth it.",
+        "date": "August 8, 2022",
+        "credit": "Photo by Ronak Jethwa",
+        "src": "25.png",
+        "alt": "Fenway Park, Boston",
+        "imgDir": "/images/"
+    }, 
+    {
+        "title": "Paris, France",
+        "notes": "The furthest southest tip of the Massachusetts, United State, Cape Code has been on my bucketlist and of the most soughtful location. Cape Code provides a dramatic backdrop to a surprisingly accessible parts to Atlantic Ocean. Th panaromic views and sunsets make the trip always worth it.",
+        "date": "August 8, 2022",
+        "credit": "Photo by Ronak Jethwa",
+        "src": "32.jpeg",
+        "alt": "Paris, France",
+        "imgDir": "/images/"
+    },  
+    {
+        "title": "North Cascades National Park, Washington",
+        "notes": "The furthest southest tip of the Massachusetts, United State, Cape Code has been on my bucketlist and of the most soughtful location. Cape Code provides a dramatic backdrop to a surprisingly accessible parts to Atlantic Ocean. Th panaromic views and sunsets make the trip always worth it.",
+        "date": "August 8, 2022",
+        "credit": "Photo by Ronak Jethwa",
+        "src": "33.jpeg",
+        "alt": "North Cascades National Park, Washington",
+        "imgDir": "/images/"
+    }           
 ]
