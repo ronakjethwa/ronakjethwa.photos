@@ -13,7 +13,7 @@ layout: main.njk
 
 # {{ heading }}
 
-👋 Hi, I'm {{ site.author.firstName }} {{ site.author.lastName}}. I love capturing moments through my lens. I am currently based out of Seattle, Washington.
+👋 Hi, I'm {{ site.author.firstName }} {{ site.author.lastName}}. I love capturing moments through my lens. I am currently based out of San Francisco, California.
 
 You can read more about me at <a href="{{ site.author.dotcom }}" target="_blank">https://ronakjethwa.com</a>. Feel free to email on <a href="mailto:{{ site.author.email }}" target="_blank">{{ site.author.email }}</a> if you want to chat.
 
