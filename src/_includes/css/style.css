@@ -57,6 +57,7 @@ header .intro {
 }
 header .intro div p {
   color: #333;
+  font-weight: 500;
 }
 header .intro div:first-child {
   margin-right: 2rem;
