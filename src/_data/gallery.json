@@ -268,5 +268,32 @@
         "src": "33.jpeg",
         "alt": "North Cascades National Park, Washington",
         "imgDir": "/images/"
-    }           
+    },
+    {
+        "title": "Gloomy/Rainy Pike Place Market, Seattle",
+        "notes": "Capturing the usual and Rainy/Gloomy days on Seattle",
+        "date": "February 4, 2023",
+        "credit": "Photo by Ronak Jethwa",
+        "src": "34.jpeg",
+        "alt": "Gloomy/Rainy Pike Place Market, Seattle",
+        "imgDir": "/images/"
+    },
+    {
+        "title": "Rains on Pike Place Market, Seattle",
+        "notes": "Capturing the usual and Rainy/Gloomy days on Seattle",
+        "date": "February 4, 2023",
+        "credit": "Photo by Ronak Jethwa",
+        "src": "35.jpeg",
+        "alt": "Rains on Pike Place Market, Seattle",
+        "imgDir": "/images/"
+    },
+    {
+        "title": "San Francisco Pier",
+        "notes": "Capturing the usual and sunny days on San Francisco",
+        "date": "November 23, 2023",
+        "credit": "Photo by Ronak Jethwa",
+        "src": "36.jpeg",
+        "alt": "San Francisco, California",
+        "imgDir": "/images/"
+    }                       
 ]
