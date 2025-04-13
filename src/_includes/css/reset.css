@@ -50,16 +50,6 @@ a:not([class]) {
   text-decoration-skip-ink: auto;
 }
 
-/* Ensure links are distinguishable */
-a {
-  text-decoration: underline;
-}
-
-/* Allow links with specific classes to override the underline */
-a[class] {
-  text-decoration: none;
-}
-
 /* Make images easier to work with */
 img {
   max-width: 100%;
