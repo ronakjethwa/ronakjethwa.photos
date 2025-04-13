@@ -1,5 +1,18 @@
 # Changelog
 
+## [1.1.1] - 2025-04-13
+### Updated
+- Improved folder structure by organizing CSS, images, and favicons under `_site/_includes`.
+- Removed unused `email.js` file.
+- Updated `.eleventy.js` to align passthrough copy and output directory with the new folder structure.
+- Updated `CONTRIBUTING.md` and `CHANGELOG.md` to reflect folder structure changes.
+
+### Fixed
+- Resolved `TypeError: Cannot read properties of undefined (reading 'getWithTTL')` by verifying dependencies and external scripts.
+
+### Notes
+- Verified successful build and deployment after folder structure changes.
+
 ## [1.0.6] - 2025-04-13
 ### Fixed
 - Removed preload directives for `apple-touch-icon.png`, `favicon-32x32.png`, and `style.css` in `base.njk` to resolve warnings about unused preloaded resources.
