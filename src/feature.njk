@@ -20,6 +20,12 @@ cardType: summary_large_image
             twitterHandle=site.author.twitterHandle,
             name=site.author.firstName + " " + site.author.lastName
         %}
+        {% if meta_keywords %}
+        <meta name="keywords" content="{{ meta_keywords }}">
+        {% endif %}
+        {% if meta_robots %}
+        <meta name="robots" content="{{ meta_robots }}">
+        {% endif %}
         <meta name="theme-color" content="#fff">
         <meta name="background-color" content="#fff">
         <meta name="keywords" content="featured photography, gallery, images, Ronak Jethwa">

@@ -128,6 +128,9 @@ If you want to change up the styles, you can write Sass (_or CSS_) directly in `
 
 _Read more about loading members and namespaces here in [Sass docs](https://sass-lang.com/documentation/at-rules/use#loading-members)_
 
+## Changelog
+For detailed updates and changes, please refer to the [CHANGELOG.md](./CHANGELOG.md).
+
 ## Contributing 
 Feel free to contribute to this project by suggesting a new feature or modification. I built this template for others to use, so let me know what you'd like to see added/modified. 
 

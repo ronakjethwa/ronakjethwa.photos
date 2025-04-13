@@ -1,5 +1,5 @@
-# Eleventy site output
-_site
+# Ignore build output directory
+_site/
 
 # Node modules
 node_modules
