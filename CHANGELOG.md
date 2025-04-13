@@ -1,5 +1,9 @@
 # Changelog
 
+## [1.0.6] - 2025-04-13
+### Fixed
+- Removed preload directives for `apple-touch-icon.png`, `favicon-32x32.png`, and `style.css` in `base.njk` to resolve warnings about unused preloaded resources.
+
 ## [1.0.5] - 2025-04-13
 ### Fixed
 - Resolved MIME type issue for `style.css` by updating Eleventy configuration to include `src/_includes/css` in passthrough copy.

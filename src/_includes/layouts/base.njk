@@ -27,9 +27,9 @@
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon_data/favicon-32x32.png">
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon_data/favicon-16x16.png">
         <link rel="manifest" href="/favicon_data/site.webmanifest">
-        <link rel="preload" href="/favicon_data/apple-touch-icon.png" as="image">
-        <link rel="preload" href="/favicon_data/favicon-32x32.png" as="image">
-        <link rel="preload" href="/css/style.css" as="style">
+        <!-- Removed preload for apple-touch-icon.png as it is not used immediately -->
+        <!-- Removed preload for favicon-32x32.png as it is not used immediately -->
+        <!-- Removed preload for style.css as it is already included in the <style> tag -->
         {% set css %}
             {% include "css/style.css" %}
             {% include "css/reset.css" %}
