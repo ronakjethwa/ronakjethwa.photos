@@ -25,6 +25,12 @@ module.exports = (eleventyConfig) => {
     eleventyConfig.addPassthroughCopy("./src/favicon_data");
     eleventyConfig.addPassthroughCopy({ "src/_includes/css": "css" });
 
+    // Updated passthrough copy and output directory to align with the new folder structure
+    eleventyConfig.addPassthroughCopy({
+        "src/_includes/images": "_site/_includes/images",
+        "src/_includes/favicons": "_site/_includes/favicons"
+    });
+
     // Create css-clean CSS Minifier filter
     eleventyConfig.addFilter("cssmin", function(code) {
         return new CleanCSS({}).minify(code).styles;

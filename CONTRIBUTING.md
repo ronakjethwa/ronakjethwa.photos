@@ -78,6 +78,8 @@ The eleventy configuration file, `.eleventy.js` is currently configured to use m
 - `./src/favicon_data/`
 - `./src/js/` 
 
+- Updated folder structure: CSS files are now organized under `_site/_includes/css`, images under `_site/_includes/images`, and favicons under `_site/_includes/favicons`.
+
 ### Sources of Data
 * Global Data Files: 
     * `_data/gallery.json` - Holds all image metadata
