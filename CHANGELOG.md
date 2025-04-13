@@ -1,5 +1,15 @@
 # Changelog
 
+## [1.0.3] - 2025-04-13
+### Added
+- Enabled Brotli compression in `netlify.toml` for better performance.
+- Added preload links for critical resources (images and CSS) in `base.njk`.
+
+### Updated
+- Ensured lazy loading is applied to all images in `home-gallery.njk`.
+- Updated `sitemap.xml` to include the gallery page.
+- Updated `robots.txt` to allow crawling of the gallery and disallow private directories.
+
 ## [1.0.2] - 2025-04-13
 ### Added
 - Added support for `meta_keywords` and `meta_robots` fields in `feature.njk` and `gallery.njk` for better SEO.
