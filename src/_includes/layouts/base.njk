@@ -15,6 +15,12 @@
         <meta name="theme-color" content="#fff">
         <meta name="background-color" content="#fff">
         <meta name="keywords" content="photography, gallery, images, Ronak Jethwa">
+        {% if meta_keywords %}
+        <meta name="keywords" content="{{ meta_keywords }}">
+        {% endif %}
+        {% if meta_robots %}
+        <meta name="robots" content="{{ meta_robots }}">
+        {% endif %}
         <meta name="author" content="Ronak Jethwa">
         <link rel="apple-touch-icon" sizes="180x180" href="/favicon_data/apple-touch-icon.png">
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon_data/favicon-32x32.png">
