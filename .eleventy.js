@@ -25,6 +25,12 @@ module.exports = (eleventyConfig) => {
     eleventyConfig.addPassthroughCopy("./src/favicon_data");
     eleventyConfig.addPassthroughCopy({ "src/_includes/css": "css" });
 
+    // Updated passthrough copy and output directory to align with the new folder structure
+    eleventyConfig.addPassthroughCopy({
+        "src/_includes/images": "_site/_includes/images",
+        "src/_includes/favicons": "_site/_includes/favicons"
+    });
+
     // Create css-clean CSS Minifier filter
     eleventyConfig.addFilter("cssmin", function(code) {
         return new CleanCSS({}).minify(code).styles;
@@ -61,14 +67,15 @@ module.exports = (eleventyConfig) => {
         return `${year}`;
     });
     
+    // Ensure the homepage is generated correctly
     return {
         dir: {
             input: "src",
-            output: "_site",
-            layouts: "_includes/layouts",
             includes: "_includes",
+            layouts: "_includes/layouts",
+            output: "_site"
         },
-        templateFormats: ["md", "liquid", "njk"],
+        templateFormats: ["njk", "md", "html"],
         passthroughFileCopy: true
-    }
+    };
 };
