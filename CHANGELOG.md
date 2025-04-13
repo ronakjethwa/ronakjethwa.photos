@@ -1,5 +1,9 @@
 # Changelog
 
+## [1.0.5] - 2025-04-13
+### Fixed
+- Resolved MIME type issue for `style.css` by updating Eleventy configuration to include `src/_includes/css` in passthrough copy.
+
 ## [1.0.4] - 2025-04-13
 ### Updated
 - Removed gzip compression configuration from `netlify.toml` to avoid deployment issues.
