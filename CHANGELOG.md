@@ -1,5 +1,10 @@
 # Changelog
 
+## [1.0.4] - 2025-04-13
+### Updated
+- Removed gzip compression configuration from `netlify.toml` to avoid deployment issues.
+- Fixed accessibility issue in the footer by ensuring all links have proper underline decoration.
+
 ## [1.0.3] - 2025-04-13
 ### Added
 - Enabled Brotli compression in `netlify.toml` for better performance.
