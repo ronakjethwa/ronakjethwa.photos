@@ -1,4 +1,6 @@
 User-agent: *
 Disallow:
+Allow: /gallery/
+Disallow: /private/
 
 Sitemap: https://ronakjethwa.photos/sitemap.xml

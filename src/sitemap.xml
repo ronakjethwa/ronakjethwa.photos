@@ -15,4 +15,10 @@
         <lastmod>2025-04-13</lastmod>
         <priority>0.8</priority>
     </url>
+    <url>
+        <loc>https://ronakjethwa.photos/gallery/</loc>
+        <lastmod>2025-04-13</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
 </urlset>
