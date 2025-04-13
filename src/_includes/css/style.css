@@ -57,7 +57,6 @@ header .intro {
 }
 header .intro div p {
   color: #333;
-  font-weight: 500;
 }
 header .intro div:first-child {
   margin-right: 2rem;
@@ -282,7 +281,7 @@ footer {
   bottom: 0;
 }
 footer a {
-  color: #2540ad;
+  color: #212121;
 }
 footer a:hover {
   color: #1836AF;
