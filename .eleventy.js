@@ -67,14 +67,15 @@ module.exports = (eleventyConfig) => {
         return `${year}`;
     });
     
+    // Ensure the homepage is generated correctly
     return {
         dir: {
             input: "src",
-            output: "_site",
-            layouts: "_includes/layouts",
             includes: "_includes",
+            layouts: "_includes/layouts",
+            output: "_site"
         },
-        templateFormats: ["md", "liquid", "njk"],
+        templateFormats: ["njk", "md", "html"],
         passthroughFileCopy: true
-    }
+    };
 };

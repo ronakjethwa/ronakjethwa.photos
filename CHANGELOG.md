@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.1.2] - 2025-04-13
+### Fixed
+- Resolved issue where the homepage was being generated under `/templates/` instead of the root directory.
+- Deleted redundant `templates/index.html` file.
+
+### Notes
+- Verified that the homepage now correctly generates as `_site/index.html` and works without `/templates/` in the URL path.
+
 ## [1.1.1] - 2025-04-13
 ### Updated
 - Improved folder structure by organizing CSS, images, and favicons under `_site/_includes`.
