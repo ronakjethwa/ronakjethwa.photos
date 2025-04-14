@@ -25,7 +25,6 @@ header .nav-main .nav-list li {
 }
 header .nav-main .nav-list a:hover {
   background: #e9e9e9;
-  background: #ededed;
   text-decoration: none;
 }
 header .nav-main .nav-list .link {
@@ -229,9 +228,13 @@ header .intro .about-me:hover {
   padding-right: 1.5rem;
 }
 
+.about-me-content a {
+  color: #000000;
+  text-decoration: underline;
+}
+
 .contact-form {
   display: flex;
-  display: -webkit-flex;
   flex-direction: column;
   max-width: 60ch;
 }

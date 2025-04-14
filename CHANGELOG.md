@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.1.3] - 2025-04-13
+### Updated
+- Generalized `text-decoration: auto` for all hyperlinks globally in the CSS.
+- Removed redundant and duplicate styles from `style.css` to improve maintainability.
+
+### Notes
+- Verified that the changes do not affect the visual consistency of the site.
+
 ## [1.1.2] - 2025-04-13
 ### Fixed
 - Resolved issue where the homepage was being generated under `/templates/` instead of the root directory.

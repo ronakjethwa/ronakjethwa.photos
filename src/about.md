@@ -13,7 +13,9 @@ layout: main.njk
 
 # {{ heading }}
 
-👋 Hi, I'm {{ site.author.firstName }} {{ site.author.lastName}}. I love capturing moments through my lens. I am currently based out of San Francisco, California.
+👋 Hi, I'm {{ site.author.firstName }} {{ site.author.lastName}}. I am currently based out of San Francisco, California and love capturing moments.
+
+My favorite subjects include breathtaking landscapes, candid street photography, and the intricate details of nature. I believe every photograph tells a story, and I strive to convey narratives through a different lens.
 
 You can read more about me at <a href="{{ site.author.dotcom }}" target="_blank">https://ronakjethwa.com</a>. Feel free to email on <a href="mailto:{{ site.author.email }}" target="_blank">{{ site.author.email }}</a> if you want to chat.
 
