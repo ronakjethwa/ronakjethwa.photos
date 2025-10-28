@@ -1,7 +1,7 @@
 [build]
     # Directory (relative to root of your repo) that contains the deploy-ready HTML files
     publish = "_site"
-    
+
     # Build command
     command = "npm run build"
 
@@ -9,7 +9,7 @@
   for = "/*"
   [headers.values]
     Strict-Transport-Security = "max-age=31536000; includeSubDomains; preload"
-    Content-Security-Policy = "default-src 'self'; img-src 'self' data:; script-src 'self'; style-src 'self' 'unsafe-inline';"
+      Content-Security-Policy = "default-src 'self'; img-src 'self' data:; script-src 'self' https://www.googletagmanager.com; style-src 'self' 'unsafe-inline';"
     X-Frame-Options = "DENY"
     X-Content-Type-Options = "nosniff"
     Referrer-Policy = "no-referrer-when-downgrade"
