@@ -53,13 +53,17 @@ module.exports = (eleventyConfig) => {
         }
     });
 
-    // Minify HTML output
+    // Minify HTML output (conservative settings for a11y plugin compatibility)
     eleventyConfig.addTransform("htmlmin", function (content, outputPath) {
         if (outputPath && outputPath.endsWith(".html")) {
             let minified = htmlmin.minify(content, {
                 useShortDoctype: true,
                 removeComments: true,
-                collapseWhitespace: true
+                collapseWhitespace: true,
+                conservativeCollapse: true, // Keep at least 1 space
+                preserveLineBreaks: true,   // Keep line breaks for readability
+                minifyJS: false,            // Don't minify inline JS (for a11y)
+                minifyCSS: false            // Don't minify inline CSS (for a11y)
             });
             return minified;
         }
