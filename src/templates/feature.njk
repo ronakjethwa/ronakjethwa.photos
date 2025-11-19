@@ -58,7 +58,8 @@ cardType: summary_large_image
                         className="showcase-img",
                         width=1024,
                         height=768,
-                        loading="lazy"
+                        loading="eager",
+                        formats=["avif", "webp", "jpeg"]
                     %}
                     <div class="image-description">
                         <h1 class="h2">{{ image.title }}</h1>

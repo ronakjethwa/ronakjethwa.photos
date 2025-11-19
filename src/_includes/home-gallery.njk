@@ -2,6 +2,7 @@
   <ul class="image-grid">
     {% for image in gallery %}
     <li class="image-container">
+        <!-- loop.first: {{ loop.first }} -->
         <a href="/gallery/{{ image.title | slug }}" aria-label="Gallery image {{ image.title }}">
             {% respimg 
                 src=image.src,
@@ -13,7 +14,8 @@
                 className="grid-image",
                 width=640,
                 height=400,
-                loading="lazy"
+                loading=('eager' if loop.index == 1 else 'lazy'),
+                formats=["avif", "webp", "jpeg"]
             %}
         </a>
     </li>

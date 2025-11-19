@@ -9,3 +9,11 @@ node_modules
 
 # Eleventy cached API results
 .cache
+
+# Generated images (built at deploy time)
+src/images/*.avif
+src/images/*.webp
+src/images/*-320.jpeg
+src/images/*-480.jpeg
+src/images/*-640.jpeg
+src/images/*-1024.jpeg

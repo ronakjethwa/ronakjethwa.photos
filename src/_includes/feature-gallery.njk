@@ -14,7 +14,8 @@
                     width=768,
                     height=600,
                     className="gallery-photo",
-                    loading="lazy"
+                    loading=('eager' if loop.first else 'lazy'),
+                    formats=["avif", "webp", "jpeg"]
                 %}
                 </a>
                 <div class="block-details">
