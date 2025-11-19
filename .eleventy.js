@@ -3,7 +3,6 @@ const { minify } = require("terser");
 const metagen = require("eleventy-plugin-metagen");
 const respimg = require("./src/_includes/local-respimg.js");
 const eleventyNavigation = require("@11ty/eleventy-navigation");
-const htmlmin = require("html-minifier");
 
 module.exports = (eleventyConfig) => {
 
@@ -53,22 +52,8 @@ module.exports = (eleventyConfig) => {
         }
     });
 
-    // Minify HTML output (conservative settings for a11y plugin compatibility)
-    eleventyConfig.addTransform("htmlmin", function (content, outputPath) {
-        if (outputPath && outputPath.endsWith(".html")) {
-            let minified = htmlmin.minify(content, {
-                useShortDoctype: true,
-                removeComments: true,
-                collapseWhitespace: true,
-                conservativeCollapse: true, // Keep at least 1 space
-                preserveLineBreaks: true,   // Keep line breaks for readability
-                minifyJS: false,            // Don't minify inline JS (for a11y)
-                minifyCSS: false            // Don't minify inline CSS (for a11y)
-            });
-            return minified;
-        }
-        return content;
-    });
+    // HTML minification removed - caused a11y plugin timeout issues
+    // CSS and JS are still minified via filters below
 
     // Configure image in a template paired shortcode
     eleventyConfig.addPairedShortcode("image", (srcSet, src, alt, sizes = "(min-width: 400px) 33.3vw, 100vw") => {

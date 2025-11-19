@@ -20,10 +20,3 @@
   for = "/*.html"
   [headers.values]
     Cache-Control = "public, max-age=0, must-revalidate"
-
-# Configure a11y plugin with increased timeout for minified HTML
-[[plugins]]
-  package = "netlify-plugin-a11y"
-  [plugins.inputs]
-    # Increase timeout from default 30s to 60s for minified HTML parsing
-    timeout = 60000
