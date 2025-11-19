@@ -20,3 +20,11 @@
   for = "/*.html"
   [headers.values]
     Cache-Control = "public, max-age=0, must-revalidate"
+
+# Disable a11y plugin - times out on minified HTML
+[[plugins]]
+  package = "@netlify/plugin-sitemap"
+
+# netlify-plugin-a11y disabled due to timeout issues with minified HTML
+# [[plugins]]
+#   package = "netlify-plugin-a11y"
