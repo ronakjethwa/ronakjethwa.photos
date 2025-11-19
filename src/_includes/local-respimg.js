@@ -105,9 +105,10 @@ module.exports = (eleventyConfig) => {
             widths.forEach((width) => {
                 jpeg(stream, filename, width);
                 webp(stream, filename, width);
-                if (data.formats && data.formats.includes('avif')) {
-                    avif(stream, filename, width);
-                }
+                // AVIF disabled - Netlify's sharp version doesn't support AVIF encoding
+                // if (data.formats && data.formats.includes('avif')) {
+                //     avif(stream, filename, width);
+                // }
             });
         };
 
@@ -115,14 +116,10 @@ module.exports = (eleventyConfig) => {
             let filename = fileNameArr[0];
             let imgSrcSet = "";
             let webpSrcSet = "";
-            let avifSrcSet = "";
 
             widths.forEach((width) => {
                 imgSrcSet += `${data.imgDir}${filename}-${width}.jpeg ${width}w, `;
                 webpSrcSet += `${data.imgDir}${filename}-${width}.webp ${width}w, `;
-                if (data.formats && data.formats.includes('avif')) {
-                    avifSrcSet += `${data.imgDir}${filename}-${width}.avif ${width}w, `;
-                }
             });
 
             const img =
@@ -136,15 +133,7 @@ module.exports = (eleventyConfig) => {
                 width="${data.width}"
                 height="${data.height}" ${data.id ? `id='${data.id}'` : ''}>`;
 
-            let sources = '';
-            if (data.formats && data.formats.includes('avif')) {
-                sources += `<source 
-                    type="image/avif"
-                    srcSet="${avifSrcSet.slice(0, avifSrcSet.length - 2)}"
-                    sizes="${data.sizes}"
-                >`;
-            }
-            sources += `<source 
+            const sources = `<source 
                     type="image/webp"
                     srcSet="${webpSrcSet.slice(0, imgSrcSet.length - 2)}"
                     sizes="${data.sizes}"
@@ -165,9 +154,6 @@ module.exports = (eleventyConfig) => {
             widths.forEach((width) => {
                 fileObj[`${width}_jpeg`] = `${data.inputDir}${data.imgDir}${filename}-${width}.jpeg`;
                 fileObj[`${width}_webp`] = `${data.inputDir}${data.imgDir}${filename}-${width}.webp`;
-                if (data.formats && data.formats.includes('avif')) {
-                    fileObj[`${width}_avif`] = `${data.inputDir}${data.imgDir}${filename}-${width}.avif`;
-                }
             });
             return fileObj;
         }
