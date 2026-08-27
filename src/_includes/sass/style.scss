@@ -138,26 +138,6 @@ h2, .h2 {
     }
 }
 
-.page-banner {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    margin: 0 auto 1em auto;
-    max-width: 1100px;
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
-    color: #212141;
-
-    p {
-        font-size: 1rem;
-        font-size: clamp(1.0625rem, 3vw, 1.2rem);
-    }
-
-    h1 {
-        margin-bottom: .75rem;
-    }
-}
 
 .about-me-content {
     .about-socials {
@@ -254,17 +234,7 @@ h2, .h2 {
  }
  
  @media screen and (max-width: 565px) {
-    .page-banner {
-        h1 {
-            text-align: left;
-        }
-    }
-
-    .main-gallery {
-        h1 {
-            padding: 0 1rem;
-        }
-    }
+    
  }
  
 @media screen and (max-width: 450px) {

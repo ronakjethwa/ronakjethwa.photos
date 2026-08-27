@@ -7,7 +7,18 @@ header {
         margin: 2rem auto 0 auto;
         max-width: 1100px;
         padding: 0 1.5rem 1.25rem 1.5rem;
-        border-bottom: 1px solid lightgray;
+        position: relative;
+
+        // rule sits inside the padding so it lines up with the text and the
+        // photo grid below, instead of overhanging both by 1.5rem
+        &::after {
+            content: "";
+            position: absolute;
+            left: 1.5rem;
+            right: 1.5rem;
+            bottom: 0;
+            border-bottom: 1px solid lightgray;
+        }
 
         div {
             p {
@@ -34,18 +45,7 @@ header {
             height: -moz-fit-content;
         }
 
-        .nav-link {
-            color: #212121;
-            text-decoration: none;
-            white-space: nowrap;
-            font-size: clamp(1.0625rem, 4vw, 1.2rem);
-
-            &:hover {
-                text-decoration: underline;
-            }
-        }
-
-        .about-me {
+        .header-btn {
             border: 1px solid #111;
             padding: .5rem 1rem;
             text-decoration: none;

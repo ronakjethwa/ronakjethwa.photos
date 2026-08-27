@@ -2,8 +2,6 @@
 eleventyNavigation:
   key: Home
   order: 1
-heading: Photo Gallery
-description: Coastlines, mountains, architecture, and cities early in the morning.
 layout: main.njk
 title: Ronak Jethwa's Photo Gallery
 meta_desc: Ronak Jethwa's Photo Gallery
@@ -12,9 +10,6 @@ alt: Sunset at the Eiffel Tower, Paris
 cardType: summary_large_image
 ---
 
-<div class="page-banner">
-  <h1>{{ heading }}</h1>
-  <p>{{ description }}</p>
-</div>
+<h1 class="sr-only">{{ title }}</h1>
 
 {% include "home-gallery.njk" %}

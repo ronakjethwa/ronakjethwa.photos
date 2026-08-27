@@ -19,7 +19,10 @@ module.exports = (eleventyConfig) => {
 
     // Perform manual passthrough file copy to include directories in the build output _site
     eleventyConfig.addPassthroughCopy("./src/robots.txt");
-    eleventyConfig.addPassthroughCopy("./src/images");
+    // Ship only the generated responsive variants. The full-size originals stay in
+    // src/images for sharp to read at build time, but never need to reach the CDN.
+    eleventyConfig.addPassthroughCopy("./src/images/*-[0-9]*.jpeg");
+    eleventyConfig.addPassthroughCopy("./src/images/*-[0-9]*.webp");
     eleventyConfig.addPassthroughCopy("./src/photos");
     eleventyConfig.addPassthroughCopy("./src/css");
     eleventyConfig.addPassthroughCopy("./src/js");
