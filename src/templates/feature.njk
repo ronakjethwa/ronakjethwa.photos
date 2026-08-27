@@ -10,30 +10,14 @@ cardType: summary_large_image
 <!DOCTYPE html>
 <html lang="en-US" dir="ltr">
     <head>
-        {% metagen 
-            title=image.title,
-            desc=image.title + " " + site.pageMetadata.featured.content,
-            url=site.url + page.url,
-            img=site.url + "/images/" + (image.src | variant(image.width)),
-            img_alt=image.alt,
-            twitter_card_type=cardType,
-            twitterHandle=site.author.twitterHandle,
-            name=site.author.firstName + " " + site.author.lastName
-        %}
-        {% if meta_keywords %}
-        <meta name="keywords" content="{{ meta_keywords }}">
-        {% endif %}
-        {% if meta_robots %}
-        <meta name="robots" content="{{ meta_robots }}">
-        {% endif %}
-        <meta name="theme-color" content="#fff">
-        <meta name="background-color" content="#fff">
-        <meta name="keywords" content="featured photography, gallery, images, Ronak Jethwa">
-        <meta name="author" content="Ronak Jethwa">
-        <link rel="apple-touch-icon" sizes="180x180" href="/favicon_data/apple-touch-icon.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="/favicon_data/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon_data/favicon-16x16.png">
-        <link rel="manifest" href="/favicon_data/site.webmanifest">
+        {% set metaTitle = image.title %}
+        {% set metaDesc = image.title + " " + site.pageMetadata.featured.content %}
+        {% set metaUrl = site.url + page.url %}
+        {% set metaImage = site.url + "/images/" + (image.src | variant(image.width)) %}
+        {% set metaImageAlt = image.alt %}
+        {% set metaCard = cardType %}
+        {% set metaKeywords = "featured photography, gallery, images, Ronak Jethwa" %}
+        {% include "layouts/meta.njk" %}
         {% set css %}
             {% include "css/style.css" %}
             {% include "css/reset.css" %}

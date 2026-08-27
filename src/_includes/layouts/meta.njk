@@ -1,0 +1,43 @@
+{#
+  Page metadata. Replaces eleventy-plugin-metagen, which bundled its own
+  @11ty/eleventy@2.0.1 and accounted for most of the repo's remaining
+  vulnerability alerts.
+
+  Expects the including template to set:
+    metaTitle, metaDesc, metaUrl, metaImage, metaImageAlt
+  Optional: metaKeywords, metaRobots, metaCard (defaults to summary_large_image)
+#}
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ metaTitle }}</title>
+<meta name="title" content="{{ metaTitle }}">
+<meta name="description" content="{{ metaDesc }}">
+<meta name="author" content="{{ site.author.firstName }} {{ site.author.lastName }}">
+<link rel="canonical" href="{{ metaUrl }}">
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:title" content="{{ metaTitle }}">
+<meta property="og:description" content="{{ metaDesc }}">
+<meta property="og:url" content="{{ metaUrl }}">
+<meta property="og:image" content="{{ metaImage }}">
+<meta property="og:image:alt" content="{{ metaImageAlt }}">
+
+<meta name="twitter:card" content="{{ metaCard | default('summary_large_image') }}">
+<meta name="twitter:title" content="{{ metaTitle }}">
+<meta name="twitter:description" content="{{ metaDesc }}">
+<meta name="twitter:url" content="{{ metaUrl }}">
+<meta name="twitter:image" content="{{ metaImage }}">
+<meta name="twitter:image:alt" content="{{ metaImageAlt }}">
+{% if site.author.twitterHandle %}<meta name="twitter:creator" content="{{ site.author.twitterHandle }}">
+<meta name="twitter:site" content="{{ site.author.twitterHandle }}">{% endif %}
+
+<meta name="keywords" content="{{ metaKeywords }}">
+{% if metaRobots %}<meta name="robots" content="{{ metaRobots }}">{% endif %}
+<meta name="theme-color" content="#fff">
+<meta name="background-color" content="#fff">
+<link rel="apple-touch-icon" sizes="180x180" href="/favicon_data/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon_data/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon_data/favicon-16x16.png">
+<link rel="manifest" href="/favicon_data/site.webmanifest">

@@ -53,3 +53,14 @@
   to = "/gallery/thunder-hole-acadia-national-park"
   status = 301
   force = true
+
+# Persist the generated image variants between builds.
+#
+# @11ty/eleventy-img skips work when the output file already exists, so a warm
+# build is ~3s against ~280s cold. Netlify starts from an empty _site, which
+# meant regenerating all 564 variants on every deploy -- including deploys that
+# only changed a lockfile. That was saturating the build queue.
+[[plugins]]
+  package = "netlify-plugin-cache"
+  [plugins.inputs]
+    paths = ["_site/images"]

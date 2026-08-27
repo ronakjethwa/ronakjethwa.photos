@@ -1,5 +1,4 @@
 const CleanCSS = require("clean-css");
-const metagen = require("eleventy-plugin-metagen");
 const eleventyImg = require("@11ty/eleventy-img");
 const generateImage = eleventyImg.default;
 const { generateHTML } = eleventyImg;
@@ -7,7 +6,6 @@ const path = require("path");
 
 module.exports = (eleventyConfig) => {
    
-    eleventyConfig.addPlugin(metagen);
     
     eleventyConfig.setTemplateFormats([
         "md",

@@ -1,32 +1,15 @@
 <!DOCTYPE html>
 <html lang="en-US" dir="ltr">
     <head>
-        {% metagen 
-            title=title,
-            desc=meta_desc,
-            url=site.url + page.url,
-            img=site.url + img,
-            img_alt=alt,
-            twitter_card_type=cardType,
-            twitterHandle=site.author.twitterHandle,
-            name=site.author.firstName + " " + site.author.lastName,
-            comments=true
-        %}
-        <meta name="theme-color" content="#fff">
-        <meta name="background-color" content="#fff">
-        {% if meta_keywords %}
-        <meta name="keywords" content="{{ meta_keywords }}">
-        {% else %}
-        <meta name="keywords" content="photography, gallery, images, Ronak Jethwa">
-        {% endif %}
-        {% if meta_robots %}
-        <meta name="robots" content="{{ meta_robots }}">
-        {% endif %}
-        <meta name="author" content="Ronak Jethwa">
-        <link rel="apple-touch-icon" sizes="180x180" href="/favicon_data/apple-touch-icon.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="/favicon_data/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon_data/favicon-16x16.png">
-        <link rel="manifest" href="/favicon_data/site.webmanifest">
+        {% set metaTitle = title %}
+        {% set metaDesc = meta_desc %}
+        {% set metaUrl = site.url + page.url %}
+        {% set metaImage = site.url + img %}
+        {% set metaImageAlt = alt %}
+        {% set metaCard = cardType %}
+        {% set metaKeywords = meta_keywords | default("photography, gallery, images, Ronak Jethwa") %}
+        {% set metaRobots = meta_robots %}
+        {% include "layouts/meta.njk" %}
         <!-- Removed preload for apple-touch-icon.png as it is not used immediately -->
         <!-- Removed preload for favicon-32x32.png as it is not used immediately -->
         <!-- Removed preload for style.css as it is already included in the <style> tag -->
