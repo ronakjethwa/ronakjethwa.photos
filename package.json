@@ -4,6 +4,7 @@
   "description": "A photo gallery starter kit built with the static site generator Eleventy",
   "main": ".eleventy.js",
   "scripts": {
+    "prebuild": "node scripts/image-cache-guard.js",
     "build": "npm-run-all build:sass build:eleventy",
     "postbuild": "node scripts/a11y-check.js",
     "check:a11y": "node scripts/a11y-check.js",
@@ -47,6 +48,7 @@
   },
   "devDependencies": {
     "eslint": "^8.0.0",
+    "netlify-plugin-cache": "^1.0.3",
     "stylelint": "^15.0.0",
     "stylelint-config-standard": "^30.0.0"
   }
