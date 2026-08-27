@@ -177,10 +177,10 @@ header .intro .header-btn:hover {
   background: inherit;
   font-size: 1em;
   color: #333;
-  background: #f2f2f2;
+  background: rgb(242, 242, 242);
 }
 .featured-img .prev-next a:hover {
-  background: #ededed;
+  background: rgb(237, 237, 237);
 }
 
 .about-page {
@@ -235,8 +235,8 @@ header .intro .header-btn:hover {
 }
 .contact-form button {
   margin-bottom: 36px;
-  background: #1b6ee2;
-  background: #1a6bdd;
+  background: rgb(27, 110, 226);
+  background: rgb(26, 107, 221);
   padding: 11px 1.35rem;
   border-radius: 3px;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
@@ -249,7 +249,7 @@ header .intro .header-btn:hover {
 .contact-form button:hover {
   border: none;
   cursor: pointer;
-  background: #1764d1;
+  background: rgb(23, 100, 209);
 }
 
 footer {
@@ -433,7 +433,7 @@ main .gallery-header {
   transform: translateY(-10rem);
   transition: transform 0.3s ease-in-out;
   padding: 0.5rem;
-  background: white;
+  background: rgb(255, 255, 255);
   color: #222;
   z-index: 999;
 }
@@ -544,7 +544,6 @@ h2, .h2 {
     max-height: 400px;
     object-fit: contain;
   }
-
   .featured-img .showcase-img {
     width: auto;
     max-width: 100%;
@@ -556,7 +555,6 @@ h2, .h2 {
   .gallery .gallery-list {
     grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr));
   }
-
   footer .footer-content .footer-info.home {
     justify-content: flex-start;
     align-items: center;
@@ -565,12 +563,10 @@ h2, .h2 {
     flex-direction: column;
     justify-content: center;
   }
-
   footer .footer-content .footer-info.home {
     justify-content: flex-start;
     align-items: center;
   }
-
   footer .footer-content .footer-info.featured {
     flex-direction: column;
     justify-content: center;
@@ -580,7 +576,6 @@ h2, .h2 {
   .main-container {
     margin-top: 2rem;
   }
-
   .gallery .gallery-list {
     grid-template-columns: repeat(auto-fill, minmax(14rem, 1fr));
   }
@@ -599,7 +594,6 @@ h2, .h2 {
     text-align: center;
     margin: 0 auto 1em auto;
   }
-
   .image-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(14rem, 1fr));
