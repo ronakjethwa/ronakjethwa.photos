@@ -1,7 +1,7 @@
 ---
 title: About - Ronak Jethwa's Photo Gallery
 meta_desc: Ronak Jethwa on photography, and the places behind the pictures.
-img: /images/36.jpeg
+img: /images/36-1024.jpeg
 alt: Pier 7 and the San Francisco skyline
 heading: About
 permalink: "/about/"

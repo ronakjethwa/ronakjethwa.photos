@@ -75,6 +75,12 @@ module.exports = (eleventyConfig) => {
         );
     });
 
+    // Map an original filename to its generated variant, e.g. 36.jpeg -> 36-1024.jpeg.
+    // Only variants are deployed, so social images must point at one.
+    eleventyConfig.addFilter("variant", function (src, width) {
+        return String(src).replace(/\.(jpe?g|png)$/i, `-${width || 1024}.jpeg`);
+    });
+
     // get the current year to be placed in the footer
     eleventyConfig.addShortcode("getYear", function() {
         const year = new Date().getFullYear();
