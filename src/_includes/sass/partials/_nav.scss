@@ -1,9 +1,9 @@
 header {
 
     .intro {
-        display: flex;
-        justify-content: space-between;
-        align-items: flex-start;
+        // name and buttons share the top row; the tagline gets the full width
+        // underneath, so it no longer wraps into a narrow column on phones
+        display: block;
         margin: 2rem auto 0 auto;
         max-width: 1100px;
         padding: 0 1.5rem 1.25rem 1.5rem;
@@ -20,37 +20,41 @@ header {
             border-bottom: 1px solid lightgray;
         }
 
-        div {
-            p {
-                color: #333;
-            }
-            &:first-child {
-                margin-right: 2rem;
-            }
+        .intro-top {
+            display: flex;
+            justify-content: space-between;
+            // stretch so the name and the buttons occupy the same vertical band
+            align-items: stretch;
+            gap: 1rem;
+        }
+
+        .home-about {
+            color: #333;
+            margin: 14px 0 0 0;
         }
 
         .home-button {
-            display: block;
+            display: flex;
+            align-items: center;
             font-size: 28px;
             font-size: clamp(26px, 4vw, 28px);
             color: #222;
-            margin-bottom: 14px;
         }
 
         .intro-links {
             display: flex;
-            align-items: center;
+            align-items: stretch;
             gap: 1.25rem;
             height: fit-content;
             height: -moz-fit-content;
         }
 
         .header-btn {
+            display: flex;
+            align-items: center;
             border: 1px solid #111;
             padding: .5rem 1rem;
             text-decoration: none;
-            height: fit-content;
-            height: -moz-fit-content;
             border-radius: 0.5rem;
             background: #1e262b;
             color: #fff;

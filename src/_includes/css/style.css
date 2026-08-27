@@ -1,7 +1,5 @@
 header .intro {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
+  display: block;
   margin: 2rem auto 0 auto;
   max-width: 1100px;
   padding: 0 1.5rem 1.25rem 1.5rem;
@@ -15,32 +13,36 @@ header .intro::after {
   bottom: 0;
   border-bottom: 1px solid lightgray;
 }
-header .intro div p {
-  color: #333;
+header .intro .intro-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  gap: 1rem;
 }
-header .intro div:first-child {
-  margin-right: 2rem;
+header .intro .home-about {
+  color: #333;
+  margin: 14px 0 0 0;
 }
 header .intro .home-button {
-  display: block;
+  display: flex;
+  align-items: center;
   font-size: 28px;
   font-size: clamp(26px, 4vw, 28px);
   color: #222;
-  margin-bottom: 14px;
 }
 header .intro .intro-links {
   display: flex;
-  align-items: center;
+  align-items: stretch;
   gap: 1.25rem;
   height: fit-content;
   height: -moz-fit-content;
 }
 header .intro .header-btn {
+  display: flex;
+  align-items: center;
   border: 1px solid #111;
   padding: 0.5rem 1rem;
   text-decoration: none;
-  height: fit-content;
-  height: -moz-fit-content;
   border-radius: 0.5rem;
   background: #1e262b;
   color: #fff;
@@ -106,10 +108,7 @@ header .intro .header-btn:hover {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr));
   gap: 20px;
-  max-width: 1100px;
   margin: 1rem auto 3rem auto;
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
 }
 .image-grid .image-container {
   height: 20rem;
@@ -458,12 +457,12 @@ h2, .h2 {
 .image-description {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  align-items: flex-start;
+  text-align: left;
   margin: 1.5rem auto 0 auto;
   padding-left: 1rem;
   padding-right: 1rem;
-  max-width: 70vw;
+  max-width: 68ch;
 }
 .image-description h1 {
   margin-bottom: 0.8rem;
@@ -584,7 +583,7 @@ h2, .h2 {
   .image-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(14rem, 1fr));
-    gap: 3px;
+    gap: 20px;
   }
 }
 

@@ -123,14 +123,16 @@ h2, .h2 {
 }
 
 .image-description {
-    display: flex; 
-    flex-direction: column; 
-    justify-content: center; 
-    align-items: center; 
+    display: flex;
+    flex-direction: column;
+    // left-aligned: centred body copy makes the reader hunt for each line start,
+    // and 70vw was ~1000px of line length on a wide screen
+    align-items: flex-start;
+    text-align: left;
     margin: 1.5rem auto 0 auto;
     padding-left: 1rem;
     padding-right: 1rem;
-    max-width: 70vw;
+    max-width: 68ch;
 
     h1 {
         margin-bottom: .8rem;
@@ -306,7 +308,7 @@ h2, .h2 {
     .image-grid {
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(14rem, 1fr));
-        gap: 3px;
+        gap: 20px;
     }
 }
 

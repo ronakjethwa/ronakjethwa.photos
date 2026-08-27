@@ -1,12 +1,12 @@
 <header class="top-nav">
     <div class="intro">
-        <div>
+        <div class="intro-top">
             <a class="home-button" href="/">{{ site.author.firstName }} {{ site.author.lastName }}</a>
-            <p class="home-about">{{ site.author.about }}</p>
+            <div class="intro-links">
+                <a class="header-btn" href="/gallery/">Gallery</a>
+                <a class="header-btn" href="/about/">About</a>
+            </div>
         </div>
-        <div class="intro-links">
-            <a class="header-btn" href="/gallery/">Gallery</a>
-            <a class="header-btn" href="/about/">About</a>
-        </div>
+        <p class="home-about">{{ site.author.about }}</p>
     </div>
 </header>
