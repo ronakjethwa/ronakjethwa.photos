@@ -12,7 +12,7 @@
   for = "/*"
   [headers.values]
     Strict-Transport-Security = "max-age=31536000; includeSubDomains; preload"
-    Content-Security-Policy = "default-src 'self'; img-src 'self' data:; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com; connect-src 'self' https://www.google-analytics.com; style-src 'self' 'unsafe-inline';"
+    Content-Security-Policy = "default-src 'self'; base-uri 'self'; form-action 'self'; frame-ancestors 'none'; object-src 'none'; img-src 'self' data:; script-src 'self' https://www.googletagmanager.com; connect-src 'self' https://www.google-analytics.com; style-src 'self' 'unsafe-inline';"
     X-Frame-Options = "DENY"
     X-Content-Type-Options = "nosniff"
     Referrer-Policy = "no-referrer-when-downgrade"
@@ -64,3 +64,12 @@
   package = "netlify-plugin-cache"
   [plugins.inputs]
     paths = ["_site/images"]
+
+# The sitemap plugin is installed from the Netlify UI; these inputs configure it.
+# Without them it lists /404 (which is noindex) and emits slash-less URLs that
+# every one of which 301s to the real page.
+[[plugins]]
+  package = "@netlify/plugin-sitemap"
+  [plugins.inputs]
+    exclude = ["/404.html"]
+    trailingSlash = true
