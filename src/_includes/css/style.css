@@ -17,7 +17,8 @@ header .intro .intro-top {
   display: flex;
   justify-content: space-between;
   align-items: stretch;
-  gap: 1rem;
+  flex-wrap: wrap;
+  gap: 0.75rem 1rem;
 }
 header .intro .home-about {
   color: #333;
@@ -26,6 +27,7 @@ header .intro .home-about {
 header .intro .home-button {
   display: flex;
   align-items: center;
+  white-space: nowrap;
   font-size: 28px;
   font-size: clamp(26px, 4vw, 28px);
   color: #222;
@@ -53,6 +55,18 @@ header .intro .header-btn:hover {
   background: #1a1f24;
 }
 
+@media screen and (max-width: 560px) {
+  header .intro .home-button {
+    font-size: 22px;
+  }
+  header .intro .intro-links {
+    gap: 0.5rem;
+  }
+  header .intro .header-btn {
+    padding: 0.4rem 0.7rem;
+    font-size: 0.95rem;
+  }
+}
 .main-gallery {
   max-width: 1100px;
   margin: 3rem auto 0 auto;

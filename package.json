@@ -39,17 +39,13 @@
   "license": "MIT",
   "dependencies": {
     "@11ty/eleventy": "^3.0.0",
-    "@11ty/eleventy-cache-assets": "^2.3.0",
     "@11ty/eleventy-img": "^7.0.0",
     "clean-css": "^4.2.3",
-    "eclint": "^2.1.0",
     "eleventy-plugin-metagen": "^1.7.11",
     "npm-run-all": "^4.1.5",
-    "sass": "^1.39.0",
-    "terser": "^5.14.2"
+    "sass": "^1.39.0"
   },
   "devDependencies": {
-    "@11ty/eleventy-navigation": "^0.3.2",
     "eslint": "^8.0.0",
     "stylelint": "^15.0.0",
     "stylelint-config-standard": "^30.0.0"
