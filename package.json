@@ -6,7 +6,7 @@
   "scripts": {
     "prebuild": "node scripts/image-cache-guard.js",
     "build": "npm-run-all build:sass build:eleventy",
-    "postbuild": "node scripts/a11y-check.js",
+    "postbuild": "node scripts/image-cache-guard.js --record && node scripts/a11y-check.js",
     "check:a11y": "node scripts/a11y-check.js",
     "start": "npm-run-all watch:*",
     "dev": "npm-run-all build:sass --parallel watch:*",
