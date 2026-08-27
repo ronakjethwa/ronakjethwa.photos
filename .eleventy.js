@@ -41,7 +41,10 @@ module.exports = (eleventyConfig) => {
     // Responsive images via @11ty/eleventy-img.
     // filenameFormat keeps the existing `<name>-<width>.<format>` scheme, so
     // every image URL already in the wild stays valid.
-    const IMG_WIDTHS = [320, 480, 640, 1024];
+    // 768 closes a 384px gap between 640 and 1024 -- the widest rung in the
+    // ladder. Mobile LCP slots land around 728 device px, which had to round up
+    // to 1024 and roughly doubled the bytes.
+    const IMG_WIDTHS = [320, 480, 640, 768, 1024];
 
     // Quality scales are NOT comparable across formats. At a shared 78, WebP came
     // out larger than the JPEG and AVIF larger still -- and since <source> wins the
