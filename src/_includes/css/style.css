@@ -1,58 +1,11 @@
-header .nav-main {
-  margin: 1rem auto 0 auto;
-  max-width: 1100px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 0.9rem 1.5rem;
-}
-header .nav-main a:hover {
-  background: #e9e9e9;
-  text-decoration: none;
-}
-header .nav-main .nav-list {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-left: 0;
-  list-style: none;
-  border-top: 1px solid lightgray;
-  border-bottom: 1px solid lightgray;
-  width: 100%;
-}
-header .nav-main .nav-list li {
-  margin: 0 1rem;
-}
-header .nav-main .nav-list a:hover {
-  background: #e9e9e9;
-  text-decoration: none;
-}
-header .nav-main .nav-list .link {
-  color: #212121;
-  padding: 0.8rem 0.75rem;
-  margin: 0 0.4rem;
-  font-size: 16px;
-  font-size: clamp(1.0625rem, 4vw, 1.2rem);
-  text-decoration: none;
-  display: block;
-}
-header .nav-main .nav-list .link:first-child {
-  margin-left: 0;
-}
-header .nav-main .home-button {
-  text-decoration: none;
-  color: #212121;
-  padding-right: 0.5rem;
-  font-size: 24px;
-  font-size: clamp(1.3rem, 4vw, 1.5rem);
-  font-weight: 500;
-}
 header .intro {
   display: flex;
   justify-content: space-between;
-  margin: 2rem auto 1rem auto;
+  align-items: flex-start;
+  margin: 2rem auto 0 auto;
   max-width: 1100px;
-  padding: 0 1.5rem;
+  padding: 0 1.5rem 1.25rem 1.5rem;
+  border-bottom: 1px solid lightgray;
 }
 header .intro div p {
   color: #333;
@@ -66,6 +19,22 @@ header .intro .home-button {
   font-size: clamp(26px, 4vw, 28px);
   color: #222;
   margin-bottom: 14px;
+}
+header .intro .intro-links {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  height: fit-content;
+  height: -moz-fit-content;
+}
+header .intro .nav-link {
+  color: #212121;
+  text-decoration: none;
+  white-space: nowrap;
+  font-size: clamp(1.0625rem, 4vw, 1.2rem);
+}
+header .intro .nav-link:hover {
+  text-decoration: underline;
 }
 header .intro .about-me {
   border: 1px solid #111;
@@ -142,7 +111,7 @@ header .intro .about-me:hover {
   list-style: none;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr));
-  gap: 3px;
+  gap: 20px;
   max-width: 1100px;
   margin: 1rem auto 3rem auto;
   padding-left: 1.5rem;
@@ -152,7 +121,6 @@ header .intro .about-me:hover {
   height: 20rem;
   overflow: hidden;
   border-radius: 2px;
-  margin: 10px;
 }
 .image-grid .image-container a .grid-image {
   object-fit: cover;
@@ -181,6 +149,12 @@ header .intro .about-me:hover {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
 }
+.featured-img .showcase-img {
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 80vh;
+}
 .featured-img .prev-next {
   display: flex;
   justify-content: space-between;
@@ -196,10 +170,10 @@ header .intro .about-me:hover {
   background: inherit;
   font-size: 1em;
   color: #333;
-  background: #f2f2f2;
+  background: rgb(242, 242, 242);
 }
 .featured-img .prev-next a:hover {
-  background: #ededed;
+  background: rgb(237, 237, 237);
 }
 
 .about-page {
@@ -228,13 +202,9 @@ header .intro .about-me:hover {
   padding-right: 1.5rem;
 }
 
-.about-me-content a {
-  color: #000000;
-  text-decoration: underline;
-}
-
 .contact-form {
   display: flex;
+  display: -webkit-flex;
   flex-direction: column;
   max-width: 60ch;
 }
@@ -258,8 +228,8 @@ header .intro .about-me:hover {
 }
 .contact-form button {
   margin-bottom: 36px;
-  background: #1b6ee2;
-  background: #1a6bdd;
+  background: rgb(27, 110, 226);
+  background: rgb(26, 107, 221);
   padding: 11px 1.35rem;
   border-radius: 3px;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
@@ -272,7 +242,7 @@ header .intro .about-me:hover {
 .contact-form button:hover {
   border: none;
   cursor: pointer;
-  background: #1764d1;
+  background: rgb(23, 100, 209);
 }
 
 footer {
@@ -456,7 +426,7 @@ main .gallery-header {
   transform: translateY(-10rem);
   transition: transform 0.3s ease-in-out;
   padding: 0.5rem;
-  background: white;
+  background: rgb(255, 255, 255);
   color: #222;
   z-index: 999;
 }
@@ -551,6 +521,7 @@ h2, .h2 {
 }
 
 .main-container {
+  max-width: 1100px;
   margin: 3rem auto 2rem auto;
 }
 
@@ -578,10 +549,6 @@ h2, .h2 {
   .gallery-item a .gallery-photo {
     height: 90vh;
   }
-
-  header .nav-main .nav-list li {
-    margin: 0 0.75rem;
-  }
 }
 @media screen and (max-width: 650px) {
   .gallery-item a .gallery-photo {
@@ -589,35 +556,25 @@ h2, .h2 {
     max-height: 400px;
     object-fit: contain;
   }
-
   .featured-img .showcase-img {
-    height: 65vh;
-    min-width: 100%;
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    max-height: 70vh;
   }
 }
 @media screen and (max-width: 565px) {
   .page-banner h1 {
     text-align: left;
   }
-
   .main-gallery h1 {
     padding: 0 1rem;
   }
 }
 @media screen and (max-width: 450px) {
-  header .nav-main {
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-  }
-  header .nav-main .nav-list li {
-    margin: 0 0.5rem;
-  }
-
   .gallery .gallery-list {
     grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr));
   }
-
   footer .footer-content .footer-info.home {
     justify-content: flex-start;
     align-items: center;
@@ -626,12 +583,10 @@ h2, .h2 {
     flex-direction: column;
     justify-content: center;
   }
-
   footer .footer-content .footer-info.home {
     justify-content: flex-start;
     align-items: center;
   }
-
   footer .footer-content .footer-info.featured {
     flex-direction: column;
     justify-content: center;
@@ -641,21 +596,12 @@ h2, .h2 {
   .main-container {
     margin-top: 2rem;
   }
-
   .gallery .gallery-list {
     grid-template-columns: repeat(auto-fill, minmax(14rem, 1fr));
-  }
-
-  header .nav-main .nav-list .link {
-    padding: 10px;
   }
 }
 /* Moto G4 width width=360px which Lighthouse runs audit on */
 @media screen and (max-width: 375px) {
-  header .nav-main .nav-list .link {
-    padding: 0.7rem 3px;
-  }
-
   .featured-img {
     margin: 0;
     padding: 0;
@@ -668,16 +614,10 @@ h2, .h2 {
     text-align: center;
     margin: 0 auto 1em auto;
   }
-
   .image-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(14rem, 1fr));
     gap: 3px;
-  }
-}
-@media screen and (max-width: 350px) {
-  header .nav-main .nav-list .link {
-    padding: 0.6rem 2px;
   }
 }
 

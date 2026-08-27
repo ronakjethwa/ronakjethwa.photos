@@ -6,115 +6,20 @@
         "credit": "Ronak Jethwa",
         "src": "01.jpeg",
         "alt": "Sunset at Eiffel Tower in Paris, France",
-        "imgDir": "/images/"
+        "imgDir": "/images/",
+        "width": 3020,
+        "height": 4032
     },
     {
-        "title": "Boston, Massachusetts",
-        "notes": "Home ♥️♥️♥️",
-        "date": "January 20, 2018",
+        "title": "Paris, France",
+        "notes": "Straight up from underneath, through the plane trees. This is the same evening as the sunset frame — I spent most of that afternoon sitting across the lawn from the tower with a few cold ones, and then walked directly under it on the way out, which is when the scale of the thing actually lands. From this angle it stops being a landmark and goes back to being ironwork. That day is stitched strong into my memories.",
+        "date": "May 27, 2017",
         "credit": "Photo by Ronak Jethwa",
-        "src": "14.png",
-        "alt": "Otter Cliffs, Acadia National Park in Maine",
-        "imgDir": "/images/"
-    },  
-    {
-        "title": "Seattle, Washington",
-        "notes": "Seattle happened by chance. I got enough out of Boston, got myself a new job in the city, which made me pack my bags and make the big move across the country. Seattle has a reputation of being gloomy, which is true for the most part. Nevertheless, the new home has a lot to offer and I've started liking it. To the new beginnings...",
-        "date": "February 28, 2021",
-        "credit": "Photo by Ronak Jethwa",
-        "src": "06.jpeg",
-        "alt": "Seattle, Washington",
-        "imgDir": "/images/"
-    },   
-    {
-        "title": "Public Market of Seattle, Washington",
-        "notes": "Commencing my Seattle photography adventures, the first thing I had to witness was the popular Public Market. It is one of the few authentic farmer's markets in the United States. This is a working market that doubles as a tourist attraction. It is filled with food and flower stalls. I particularly enjoyed seeing the catch of the day in the Fish Market. Note that I call this a 'working marketing' before I alluded to it being a place tourists might enjoy. Pike has a lot to offer and is a nice blend of 'real' and 'attraction. While you are there, don't forget to look for the hidden urban garden tucked away in an alley ;)",
-        "date": "September 5, 2021",
-        "credit": "Photo by Ronak Jethwa",
-        "src": "02.jpeg",
-        "alt": "Public Market of Seattle, Washington",
-        "imgDir": "/images/"
-    },
-    {
-        "title": "Pike Place Market of Seattle, Washington",
-        "notes": "Pike Place Market is filled with food and flower stalls. This hub of delicious scents, delectable eats and delightful personalities attracts nine million visitors a year.",
-        "date": "September 5, 2021",
-        "credit": "Photo by Ronak Jethwa",
-        "src": "03.jpeg",
-        "alt": "Pike Place Market of Seattle, Washington",
-        "imgDir": "/images/"
-    },
-    {
-        "title": "Flower Stalls, Pike Place Market, Seattle, Washington",
-        "notes": "Pike Place Market is filled with food and flower stalls. If you happen to visit the Pike Place Market early in the day, you get to see these flower stalls in all of its full capacity. Flowers so fresh and cheap, you right away want to get a bouquet for your loved ones.",
-        "date": "September 5, 2021",
-        "credit": "Photo by Ronak Jethwa",
-        "src": "04.jpeg",
-        "alt": "Flower Stalls, Pike Place Market, Seattle, Washington",
-        "imgDir": "/images/"
-    },     
-    {
-        "title": "First Starbucks, Seattle, Washington",
-        "notes": "I had to visit the Original Starbucks, located near the waterfront in Seattle’s Pike Place Market, which famously displays the modest 45-year-old sign. This Starbucks is where it all began. The line may be crazy long, the coffee is the same as any other Starbucks, but you go there for the experience. It was one of the most surreal experience to hear the history of the company and order a drink from the very first Starbucks.",
-        "date": "September 5, 2021",
-        "credit": "Photo by Ronak Jethwa",
-        "src": "05.jpeg",
-        "alt": "Original Starbucks in Seattle",
-        "imgDir": "/images/"
-    },
-    {
-        "title": "Yarmouth, Cape Cod",
-        "notes": "Cape Cod is one of my favorite leisure destination. Every trip I've made to Cape Cod has always been memorable. The sunsets at Gray's Beach at Yarmouth are one the most spectacular events I have witnessed while living on East Coast. Definitely a hidden Cape Cod gem.",
-        "date": "August 10, 2019",
-        "credit": "Photo by Ronak Jethwa",
-        "src": "07.jpeg",
-        "alt": "Gray's Beach at Yarmouth in Cape Cod, Massachusetts",
-        "imgDir": "/images/"
-    },
-    {
-        "title": "Parker River National Wildlife Refuge, Massachusetts",
-        "notes": "Located along the northeast coast of Massachusetts, Parker River National Wildlife Refuge has special significance and value to migratory birds. This photograph is during one of the many birding adventutes I did during my years in Boston catching the glimpses of wildlife.",
-        "date": "May 18, 2019",
-        "credit": "Photo by Ronak Jethwa",
-        "src": "08.jpeg",
-        "alt": "Birding Adventure at Parker River National Wildlife Refuge, Massachusetts",
-        "imgDir": "/images/"
-    },
-    {
-        "title": "Deer Island in Boston, Massachusetts",
-        "notes": "Deer Island has been one of the places that is stitched in my core memory. I have always loved a good sunrise, and have often went distance to catch a good one. When I lived back in Boston, catching a good sunrise at Deer Island was one of the many favorite things I did frequently.",
-        "date": "March 24, 2019",
-        "credit": "Photo by Ronak Jethwa",
-        "src": "09.jpeg",
-        "alt": "Deer Island in Boston, Massachusetts",
-        "imgDir": "/images/"
-    },
-    {
-        "title": "Cape Cod, Massachusetts",
-        "notes": "Sandwich in Cape Cod, Massachusetts has been one of my other favorite places around the Cape Cod region in Massachusetts. This little boardwalk starts from nowhere and is a beautiful spot to stroll above the marsh and eventually end up on a lovely beach with dunes and protected areas for endangered birds’ nesting habitats.",
-        "date": "August 12, 2019",
-        "credit": "Photo by Ronak Jethwa",
-        "src": "10.jpeg",
-        "alt": "Cape Cod, Massachusetts",
-        "imgDir": "/images/"
-    },
-    {
-        "title": "Otter Cliffs, Acadia National Park in Maine",
-        "notes": "One of the coldest and finest sunrise I have witnessed so far. This is from Otter Cliff inside Acadia National Park during the month of January. It was cold enough that my phone's battery died in few minutes. Witnessing the sun coming out in that temperature, standing in 2 layers of warm jackets trying to keep my hands warm enough and holding the camera steady enough to get one nice shot, one hell of an adventure it was. Glad that picture turned out to be a good one in the end.",
-        "date": "January 20, 2018",
-        "credit": "Photo by Ronak Jethwa",
-        "src": "11.jpeg",
-        "alt": "Otter Cliffs, Acadia National Park in Maine",
-        "imgDir": "/images/"
-    },
-    {
-        "title": "Acadia National Park, Maine",
-        "notes": "One of the coldest and finest sunrise I have witnessed so far. This is from Otter Cliff inside Acadia National Park during the month of January. It was cold enough that my phone's battery died in few minutes. Witnessing the sun coming out in that temperature, standing in 2 layers of warm jackets trying to keep my hands warm enough and holding the camera steady enough to get one nice shot, one hell of an adventure it was. Glad that picture turned out to be a good one in the end.",
-        "date": "January 20, 2018",
-        "credit": "Photo by Ronak Jethwa",
-        "src": "12.jpeg",
-        "alt": "Otter Cliffs, Acadia National Park in Maine",
-        "imgDir": "/images/"
+        "src": "32.jpeg",
+        "alt": "The Eiffel Tower from directly below, framed by plane trees",
+        "imgDir": "/images/",
+        "width": 768,
+        "height": 1024
     },
     {
         "title": "First Light",
@@ -123,34 +28,273 @@
         "credit": "Photo by Ronak Jethwa",
         "src": "13.jpeg",
         "alt": "Sunrise at Cadillac Mountain in Acadia National Park",
-        "imgDir": "/images/"
+        "imgDir": "/images/",
+        "width": 2656,
+        "height": 1494
     },
     {
-        "title": "Bar Harbor, Maine",
-        "notes": "One of the coldest and finest sunrise I have witnessed so far. This is from Otter Cliff inside Acadia National Park during the month of January. It was cold enough that my phone's battery died in few minutes. Witnessing the sun coming out in that temperature, standing in 2 layers of warm jackets trying to keep my hands warm enough and holding the camera steady enough to get one nice shot, one hell of an adventure it was. Glad that picture turned out to be a good one in the end.",
+        "title": "Sunrise at Acadia National Park",
+        "notes": "I have always loved a good sunrise and have often gone a long way out of my way to catch one. The sun clears the water, and then the birds turn up out of nowhere to get in the way of it, which is the part you can never plan for. Everything in the frame is either solid black or burning. Worth every early alarm it took to be standing there.",
+        "date": "August 21, 2017",
+        "credit": "Photo by Ronak Jethwa",
+        "src": "20.jpeg",
+        "alt": "The sun clearing the horizon over the Atlantic with birds in silhouette",
+        "imgDir": "/images/",
+        "width": 1600,
+        "height": 1063
+    },
+    {
+        "title": "Acadia National Park, Maine",
+        "notes": "The same January morning at Otter Cliff, turned around to face the rock instead of the water. The spray had frozen solid onto the boulders along the bottom and the low sun was only catching the tops of the trees. I remember being completely miserable and completely happy at the same time, standing there waiting for the light to come round. That is most of what I go out for.",
+        "date": "January 15, 2018",
+        "credit": "Photo by Ronak Jethwa",
+        "src": "12.jpeg",
+        "alt": "Sunrise light on the coastal cliffs at Acadia National Park, Maine",
+        "imgDir": "/images/",
+        "width": 4000,
+        "height": 6016
+    },
+    {
+        "title": "Boston, Massachusetts",
+        "notes": "Home ♥️♥️♥️ — Boston across the Charles, long exposure, the water gone completely to glass. Five years here, and they were the best years of my life. Two cities later it is still home, all of it.",
+        "date": "January 20, 2018",
+        "credit": "Photo by Ronak Jethwa",
+        "src": "14.png",
+        "alt": "The Boston skyline at sunset across the Charles River",
+        "imgDir": "/images/",
+        "width": 1080,
+        "height": 719
+    },
+    {
+        "title": "Otter Cliffs, Acadia National Park in Maine",
+        "notes": "One of the coldest and finest sunrises I have witnessed so far. It was cold enough that the ocean itself was steaming — sea smoke, which comes up when the air sits so much colder than the water that the sea starts giving it off. My phone's battery died within a few minutes of me getting there. Two layers of jackets, hands going numb, trying to hold the camera steady long enough for one good frame. One hell of an adventure it was, and I am glad this one turned out to be a good one in the end.",
+        "date": "January 20, 2018",
+        "credit": "Photo by Ronak Jethwa",
+        "src": "11.jpeg",
+        "alt": "Sunrise over sea smoke off the coast at Acadia National Park, Maine",
+        "imgDir": "/images/",
+        "width": 1600,
+        "height": 1198
+    },
+    {
+        "title": "Thunder Hole, Acadia National Park",
+        "notes": "Thunder Hole, where the stairs drop you down into a cut in the rock and the tide works away underneath. There is a small figure at the bottom of the rail if you look for it, and it is the only thing in the frame giving the drop any scale. The sky held that pink for maybe five minutes and then quit entirely. Maine in January asks a lot of you and then pays all of it back in about the time it takes to change a lens.",
         "date": "January 20, 2018",
         "credit": "Photo by Ronak Jethwa",
         "src": "15.jpeg",
-        "alt": "Otter Cliffs, Acadia National Park in Maine",
-        "imgDir": "/images/"
+        "alt": "The wooden stairs down into Thunder Hole at dusk, Acadia National Park, Maine",
+        "imgDir": "/images/",
+        "width": 3036,
+        "height": 3795
+    },
+    {
+        "title": "Boston Winters",
+        "notes": "The Charles freezes over and the boats come out of the water to sit on the dock all winter, hulls up, waiting on a thaw that is still months away. Back Bay lit up across the ice, and the river gone quiet in a way it never is in summer. Blue hour, and cold enough that I had the whole dock to myself. Five Boston winters, and this is the version of them I still miss.",
+        "date": "February 9, 2019",
+        "credit": "Photo by Ronak Jethwa",
+        "src": "23.png",
+        "alt": "Sailboats hauled onto a dock beside the frozen Charles River with the Back Bay skyline at dusk",
+        "imgDir": "/images/",
+        "width": 1080,
+        "height": 1623
+    },
+    {
+        "title": "Deer Island in Boston, Massachusetts",
+        "notes": "Deer Island has been one of the places that is stitched in my core memory. I have always loved a good sunrise, and have often went distance to catch a good one. When I lived back in Boston, catching a good sunrise at Deer Island was one of the many favorite things I did frequently.",
+        "date": "March 24, 2019",
+        "credit": "Photo by Ronak Jethwa",
+        "src": "09.jpeg",
+        "alt": "Deer Island in Boston, Massachusetts",
+        "imgDir": "/images/",
+        "width": 1080,
+        "height": 1794
+    },
+    {
+        "title": "Parker River National Wildlife Refuge, Massachusetts",
+        "notes": "Reeds going to silhouette against the last of the light at Parker River, out on the northeast coast of Massachusetts. The refuge matters enormously to migrating birds, and I spent a good part of my Boston years out there with a lens, waiting on something to happen. There is almost no wildlife in this frame at all. Sometimes you go out looking for birds and come back with the light instead, and those years handed me a lot of evenings like this one.",
+        "date": "May 18, 2019",
+        "credit": "Photo by Ronak Jethwa",
+        "src": "08.jpeg",
+        "alt": "Birding Adventure at Parker River National Wildlife Refuge, Massachusetts",
+        "imgDir": "/images/",
+        "width": 1600,
+        "height": 1063
+    },
+    {
+        "title": "Fenway Park, Boston",
+        "notes": "Fenway is one of my favourite ballparks in the entire country. A panorama from the third base side, wide enough to take in the Wall and the grandstand together. Two things get everybody the first time: the Wall is shorter than it looks on television, and the whole park is far smaller than it has any right to be. But the reason I would go back any day of the week is the middle of the eighth, when the entire place stands up to sing Sweet Caroline. Thirty-odd thousand people who mostly cannot sing, doing it anyway, all at once.",
+        "date": "June 22, 2019",
+        "credit": "Photo by Ronak Jethwa",
+        "src": "25.png",
+        "alt": "A panorama of Fenway Park during a day game",
+        "imgDir": "/images/",
+        "width": 1080,
+        "height": 472
+    },
+    {
+        "title": "Charles River, Boston",
+        "notes": "Same river, opposite season, shot from about a foot above the waterline. The skyline reads completely differently when you are sitting down in it instead of looking across from a bridge — everything gets taller and further away at the same time. Grey afternoon, flat water, and a long slow paddle back in. The Charles is the thread running through all five of those years.",
+        "date": "July 14, 2019",
+        "credit": "Photo by Ronak Jethwa",
+        "src": "24.jpeg",
+        "alt": "The bow of a kayak on the Charles River with the Boston skyline beyond",
+        "imgDir": "/images/",
+        "width": 1080,
+        "height": 1437
+    },
+    {
+        "title": "Yarmouth, Cape Cod",
+        "notes": "Cape Cod is one of my favorite leisure destination. Every trip I've made to Cape Cod has always been memorable. The sunsets at Gray's Beach at Yarmouth are one the most spectacular events I have witnessed while living on East Coast. Definitely a hidden Cape Cod gem.",
+        "date": "August 10, 2019",
+        "credit": "Photo by Ronak Jethwa",
+        "src": "07.jpeg",
+        "alt": "Gray's Beach at Yarmouth in Cape Cod, Massachusetts",
+        "imgDir": "/images/",
+        "width": 2845,
+        "height": 4032
+    },
+    {
+        "title": "Cape Cod, Atlantic Ocean",
+        "notes": "The marsh turns gold a good while before the sky does, and for twenty minutes or so the grass is the brightest thing out there. People were still on the boardwalk waiting for the rest of it to happen. Low tide, no wind, the water sitting in the channels holding all of the light. The sunsets down here are some of the most spectacular things I witnessed in all my years on the East Coast.",
+        "date": "August 11, 2019",
+        "credit": "Photo by Ronak Jethwa",
+        "src": "18.jpeg",
+        "alt": "A boardwalk over the marsh at sunset on Cape Cod",
+        "imgDir": "/images/",
+        "width": 1600,
+        "height": 1063
+    },
+    {
+        "title": "Cape Cod Sunsets",
+        "notes": "The same boardwalk, shot down the length of the rail instead of across it. The sky was doing enough work on its own that I did not want anything else competing in the frame. These are the last few minutes before the whole thing goes flat, and I have never worked out how to stop chasing them.",
+        "date": "August 11, 2019",
+        "credit": "Photo by Ronak Jethwa",
+        "src": "19.jpeg",
+        "alt": "Boardwalk railing against an orange sunset over the Cape Cod marsh",
+        "imgDir": "/images/",
+        "width": 1063,
+        "height": 1600
+    },
+    {
+        "title": "Cape Cod, Massachusetts",
+        "notes": "The Sandwich boardwalk, which starts more or less nowhere, runs out over the marsh, and delivers you onto a beach with dunes and nesting grounds at the far end. Look down as you walk and every plank has a name cut into it — families, birthdays, people being remembered. It is the only boardwalk I know where the floor is worth as much attention as the view.",
+        "date": "August 12, 2019",
+        "credit": "Photo by Ronak Jethwa",
+        "src": "10.jpeg",
+        "alt": "Cape Cod, Massachusetts",
+        "imgDir": "/images/",
+        "width": 2879,
+        "height": 3599
+    },
+    {
+        "title": "Cape Cod",
+        "notes": "Cape Cod is one of my favourite places on this coast and every trip I have made down there has been memorable. A rolled path laid over the dunes, two people already at the far end of it and into the water. The dunes sit high enough that you cannot see the ocean at all until you are right on top of it, and then it opens up all at once. That walk out, where the sound reaches you before the view does, is the part I keep going back for.",
+        "date": "August 17, 2019",
+        "credit": "Photo by Ronak Jethwa",
+        "src": "17.jpeg",
+        "alt": "A matted path over the dunes down to the water on Cape Cod",
+        "imgDir": "/images/",
+        "width": 1080,
+        "height": 1794
+    },
+    {
+        "title": "Seattle, Washington",
+        "notes": "Seattle happened by chance. I got enough out of Boston, got myself a new job in the city, which made me pack my bags and make the big move across the country. Seattle has a reputation of being gloomy, which is true for the most part. Nevertheless, the new home has a lot to offer and I've started liking it. To the new beginnings...",
+        "date": "February 28, 2021",
+        "credit": "Photo by Ronak Jethwa",
+        "src": "06.jpeg",
+        "alt": "Seattle, Washington",
+        "imgDir": "/images/",
+        "width": 1080,
+        "height": 1616
+    },
+    {
+        "title": "Public Market of Seattle, Washington",
+        "notes": "The first thing I had to see when I started shooting Seattle was the Public Market. It is a working market that happens to double as a tourist attraction, which is a harder balance to strike than it sounds — food and flower stalls, the catch of the day going over the counter in the fish market, and nine million visitors a year moving through the middle of it. Masks were still required the day I went. I came for the sign and stayed about three hours, and I have gone back more times than I can count since.",
+        "date": "September 5, 2021",
+        "credit": "Photo by Ronak Jethwa",
+        "src": "02.jpeg",
+        "alt": "Public Market of Seattle, Washington",
+        "imgDir": "/images/",
+        "width": 1029,
+        "height": 1591
+    },
+    {
+        "title": "Pike Place Market of Seattle, Washington",
+        "notes": "The clock and the sign from underneath, with the market in full flow beneath it — umbrellas out, every bench taken, people eating standing up because there is nowhere left to sit. Most photographs of this place are taken from across the street with the whole sign in frame. I like this angle better. You lose half the letters and you gain the actual market.",
+        "date": "September 5, 2021",
+        "credit": "Photo by Ronak Jethwa",
+        "src": "03.jpeg",
+        "alt": "Pike Place Market of Seattle, Washington",
+        "imgDir": "/images/",
+        "width": 1053,
+        "height": 1575
+    },
+    {
+        "title": "Flower Stalls, Pike Place Market, Seattle, Washington",
+        "notes": "If you get to Pike Place early enough, the flower stalls are still at full capacity and nothing has been picked over yet. Dahlias, gladiolus, whatever came in that morning, wrapped in paper and priced at something that feels like a mistake. Fresh enough and cheap enough that you walk out wanting to buy a bunch for everyone you know.",
+        "date": "September 5, 2021",
+        "credit": "Photo by Ronak Jethwa",
+        "src": "04.jpeg",
+        "alt": "Flower Stalls, Pike Place Market, Seattle, Washington",
+        "imgDir": "/images/",
+        "width": 1080,
+        "height": 1616
+    },
+    {
+        "title": "First Starbucks, Seattle, Washington",
+        "notes": "The original Starbucks, near the waterfront end of Pike Place, still showing that modest old sign. The line runs out the door and down the block, the coffee is identical to every other Starbucks on earth, and you go anyway — because this is the room where it started. I stood in that line fully aware of how silly it was and enjoyed every minute of it.",
+        "date": "September 5, 2021",
+        "credit": "Photo by Ronak Jethwa",
+        "src": "05.jpeg",
+        "alt": "Original Starbucks in Seattle",
+        "imgDir": "/images/",
+        "width": 1045,
+        "height": 1604
+    },
+    {
+        "title": "Mount Baker Highway, Washington",
+        "notes": "Straight down onto the highway from above. The forest closes in so completely on both sides that the road ends up being the only thing in the frame with a hard edge to it, and everything else reads as texture. One car, which is the only reason any of this has a sense of scale. That whole summer I was driving these roads trying to catch every PNW mountain I could, and somewhere along the way the drives themselves became the thing worth stopping for.",
+        "date": "August 21, 2022",
+        "credit": "Photo by Ronak Jethwa",
+        "src": "33.jpeg",
+        "alt": "An aerial view straight down onto a road cutting through dense conifer forest in Washington",
+        "imgDir": "/images/",
+        "width": 665,
+        "height": 1182
+    },
+    {
+        "title": "Cape Flattery, Washington",
+        "notes": "The furthest northwest tip of the contiguous United States, and on my list well before I ever moved to the PNW. The drive out is genuinely absurd. Then the trail starts in deep forest, turns into an easy boardwalk, and a few minutes later drops you onto a coastline with 180 degrees of Pacific in front of you and nothing beyond it. That is the whole country running out under your feet, and it is worth every hour of the drive.",
+        "date": "September 17, 2022",
+        "credit": "Photo by Ronak Jethwa",
+        "src": "30.jpeg",
+        "alt": "Cape Flattery, Washington",
+        "imgDir": "/images/",
+        "width": 2958,
+        "height": 3944
     },
     {
         "title": "Mount Rainier, Washington",
-        "notes": "An active volcano, Mount Rainier is the most glaciated peak in the contiguous U.S.A., spawning five major rivers. At a height of 14,410 feet, Mount Rainier is the highest volcanic peak in the contiguous United States. Because of the unpredictable weather climate in the state of washington, you hardly get to see the mountain in all of its glory, but on those couple of clear days when you get to see the mountain, you realize the sheer beauty of it. I have been eyeing to catch this beauty ever since I have moved to PNW - few failed drives where weather was not in my favor, but this one was totally worth it.",
+        "notes": "Washington weather means you rarely get to see Rainier at all, let alone like this. I had been chasing this mountain since I moved to the PNW and had several drives end in cloud with nothing to show for them. This was the one that finally paid out — the whole thing standing clear, fourteen thousand feet of it, and no haze anywhere. Every failed attempt was worth it for this.",
         "date": "September 25, 2022",
         "credit": "Photo by Ronak Jethwa",
         "src": "26.jpg",
         "alt": "Mount Rainier, Washington",
-        "imgDir": "/images/"
-    },     
+        "imgDir": "/images/",
+        "width": 6000,
+        "height": 4000
+    },
     {
         "title": "Reflection Lake, Mount Rainier, Washington",
-        "notes": "The views of Mt Rainier from reflection lakes are legendary and with good reason. This is one of the most picturesque area in Mount Rainier National Park. Try to catch the lake in the early morning or evening when the water is still.  If the sky is clear you’ll have an excellent chance to view Mount Rainier reflecting in these beautiful subalpine lakes.",
+        "notes": "Reflection Lake, doing exactly what it is named for. Come early or come late, when the water has gone completely still, and the mountain arrives twice. I stood there long enough for the surface to settle and the reflection to sharpen up, and it remains one of the few places I have been where the photograph is essentially handed to you.",
         "date": "September 25, 2022",
         "credit": "Photo by Ronak Jethwa",
         "src": "27.jpg",
         "alt": "Mount Rainier, Washington State",
-        "imgDir": "/images/"
+        "imgDir": "/images/",
+        "width": 4000,
+        "height": 5732
     },
     {
         "title": "Picture Lake, Washington",
@@ -159,7 +303,9 @@
         "credit": "Photo by Ronak Jethwa",
         "src": "28.jpg",
         "alt": "Picture Lake, Washington",
-        "imgDir": "/images/"
+        "imgDir": "/images/",
+        "width": 4000,
+        "height": 6000
     },
     {
         "title": "Mount Baker, Washington",
@@ -168,132 +314,173 @@
         "credit": "Photo by Ronak Jethwa",
         "src": "31.jpeg",
         "alt": "Mount Baker, Washington",
-        "imgDir": "/images/"
-    },    
+        "imgDir": "/images/",
+        "width": 4000,
+        "height": 6000
+    },
     {
         "title": "Mount Shuksan, Washington",
-        "notes": "Another day, another bucketlist Mountain. Right at the Artist Point, Mount Shuksan is one of North America’s most iconic peaks. Situated on the western flank of the rugged North Cascades National Park, the mountain is capped by glaciers and surrounded by picturesque alpine lakes and meadows. Seeing that glacier up so close, and witnessing the sun rays falling all over it, it dazzles you right at the first sight. Mount Shuksan is my most favorite mountain in PWN.",
+        "notes": "Another day, another bucketlist Mountain. Right at the Artist Point, Mount Shuksan is one of North America’s most iconic peaks. Situated on the western flank of the rugged North Cascades National Park, the mountain is capped by glaciers and surrounded by picturesque alpine lakes and meadows. Seeing that glacier up so close, and witnessing the sun rays falling all over it, it dazzles you right at the first sight. Mount Shuksan is my most favorite mountain in PNW.",
         "date": "September 26, 2022",
         "credit": "Photo by Ronak Jethwa",
         "src": "29.jpeg",
         "alt": "Mount Shuksan, Washington",
-        "imgDir": "/images/"
+        "imgDir": "/images/",
+        "width": 6000,
+        "height": 4000
     },
     {
-        "title": "Cape Flattery, Washington",
-        "notes": "The furthest northwest tip of the contiguous United State, Cape Flattery has been on my bucketlist even before I moved to PNW. Cape Flattery provides a dramatic backdrop to a surprisingly accessible hike. The drive was insane long, but the views make it all worth it. The trail starts in the lush forest, and quickly takes you on an easy boardwalk hike and in few minutes you are witnessing the majestic North West Pacific Ocean coastline. Unbeatable views all around 180 degrees.",
-        "date": "September 26, 2022",
-        "credit": "Photo by Ronak Jethwa",
-        "src": "30.jpeg",
-        "alt": "Cape Flattery, Washington",
-        "imgDir": "/images/"
-    },
-    {
-        "title": "Cape Cod",
-        "notes": "The furthest southest tip of the Massachusetts, United State, Cape Code has been on my bucketlist and of the most soughtful location. Cape Code provides a dramatic backdrop to a surprisingly accessible parts to Atlantic Ocean. Th panaromic views and sunsets make the trip always worth it.",
-        "date": "August 8, 2022",
-        "credit": "Photo by Ronak Jethwa",
-        "src": "17.jpeg",
-        "alt": "Cape Code",
-        "imgDir": "/images/"
-    },  
-    {
-        "title": "Cape Cod, Atlantic Ocean",
-        "notes": "The furthest southest tip of the Massachusetts, United State, Cape Code has been on my bucketlist and of the most soughtful location. Cape Code provides a dramatic backdrop to a surprisingly accessible parts to Atlantic Ocean. Th panaromic views and sunsets make the trip always worth it.",
-        "date": "November 6, 2022",
-        "credit": "Photo by Ronak Jethwa",
-        "src": "18.jpeg",
-        "alt": "Cape Cod, Atlantic Ocean",
-        "imgDir": "/images/"
-    }, 
-    {
-        "title": "Cape Cod Sunsets",
-        "notes": "The furthest southest tip of the Massachusetts, United State, Cape Code has been on my bucketlist and of the most soughtful location. Cape Code provides a dramatic backdrop to a surprisingly accessible parts to Atlantic Ocean. Th panaromic views and sunsets make the trip always worth it.",
-        "date": "November 6, 2022",
-        "credit": "Photo by Ronak Jethwa",
-        "src": "19.jpeg",
-        "alt": "Cape Cod Sunsets",
-        "imgDir": "/images/"
-    },
-    {
-        "title": "Sunrise at Acadia National Park",
-        "notes": "The furthest southest tip of the Massachusetts, United State, Cape Code has been on my bucketlist and of the most soughtful location. Cape Code provides a dramatic backdrop to a surprisingly accessible parts to Atlantic Ocean. Th panaromic views and sunsets make the trip always worth it.",
-        "date": "August 6, 2022",
-        "credit": "Photo by Ronak Jethwa",
-        "src": "20.jpeg",
-        "alt": "Sunrise at Acadia National Park",
-        "imgDir": "/images/"
-    }, 
-    {
-        "title": "Boston Winters",
-        "notes": "The furthest southest tip of the Massachusetts, United State, Cape Code has been on my bucketlist and of the most soughtful location. Cape Code provides a dramatic backdrop to a surprisingly accessible parts to Atlantic Ocean. Th panaromic views and sunsets make the trip always worth it.",
-        "date": "August 8, 2022",
-        "credit": "Photo by Ronak Jethwa",
-        "src": "23.png",
-        "alt": "Boston Winters",
-        "imgDir": "/images/"
-    },               
-    {
-        "title": "Charles River, Boston",
-        "notes": "The furthest southest tip of the Massachusetts, United State, Cape Code has been on my bucketlist and of the most soughtful location. Cape Code provides a dramatic backdrop to a surprisingly accessible parts to Atlantic Ocean. Th panaromic views and sunsets make the trip always worth it.",
-        "date": "August 8, 2022",
-        "credit": "Photo by Ronak Jethwa",
-        "src": "24.jpeg",
-        "alt": "Charles River, Boston",
-        "imgDir": "/images/"
-    }, 
-    {
-        "title": "Fenway Park, Boston",
-        "notes": "The furthest southest tip of the Massachusetts, United State, Cape Code has been on my bucketlist and of the most soughtful location. Cape Code provides a dramatic backdrop to a surprisingly accessible parts to Atlantic Ocean. Th panaromic views and sunsets make the trip always worth it.",
-        "date": "August 8, 2022",
-        "credit": "Photo by Ronak Jethwa",
-        "src": "25.png",
-        "alt": "Fenway Park, Boston",
-        "imgDir": "/images/"
-    }, 
-    {
-        "title": "Paris, France",
-        "notes": "The furthest southest tip of the Massachusetts, United State, Cape Code has been on my bucketlist and of the most soughtful location. Cape Code provides a dramatic backdrop to a surprisingly accessible parts to Atlantic Ocean. Th panaromic views and sunsets make the trip always worth it.",
-        "date": "August 8, 2022",
-        "credit": "Photo by Ronak Jethwa",
-        "src": "32.jpeg",
-        "alt": "Paris, France",
-        "imgDir": "/images/"
-    },  
-    {
-        "title": "North Cascades National Park, Washington",
-        "notes": "The furthest southest tip of the Massachusetts, United State, Cape Code has been on my bucketlist and of the most soughtful location. Cape Code provides a dramatic backdrop to a surprisingly accessible parts to Atlantic Ocean. Th panaromic views and sunsets make the trip always worth it.",
-        "date": "August 8, 2022",
-        "credit": "Photo by Ronak Jethwa",
-        "src": "33.jpeg",
-        "alt": "North Cascades National Park, Washington",
-        "imgDir": "/images/"
-    },
-    {
-        "title": "Gloomy/Rainy Pike Place Market, Seattle",
-        "notes": "Capturing the usual and Rainy/Gloomy days on Seattle",
+        "title": "Public Market, Seattle",
+        "notes": "The Public Market sign from round the back, a construction crane parked behind it and Elliott Bay gone completely flat and grey. One man walking past underneath, not looking up at any of it. Seattle has a reputation for being gloomy and it is true for the most part — this is the version of the market that nobody photographs. By this point I had stopped waiting on the weather to improve and started shooting it as it came.",
         "date": "February 4, 2023",
         "credit": "Photo by Ronak Jethwa",
         "src": "34.jpeg",
-        "alt": "Gloomy/Rainy Pike Place Market, Seattle",
-        "imgDir": "/images/"
+        "alt": "The Public Market sign in Seattle seen against a construction crane and Elliott Bay on a grey day",
+        "imgDir": "/images/",
+        "width": 4000,
+        "height": 6000
     },
     {
         "title": "Rains on Pike Place Market, Seattle",
-        "notes": "Capturing the usual and Rainy/Gloomy days on Seattle",
+        "notes": "The neon works harder in the wet. Rain had the cobbles holding all the red off the sign, and everyone was crossing quickly with their heads down, which is the correct way to move through Seattle in February. Nobody stops for the sign once they live here. I still did, occasionally.",
         "date": "February 4, 2023",
         "credit": "Photo by Ronak Jethwa",
         "src": "35.jpeg",
-        "alt": "Rains on Pike Place Market, Seattle",
-        "imgDir": "/images/"
+        "alt": "Pedestrians crossing wet cobblestones under the Public Market Center sign in the rain, Seattle",
+        "imgDir": "/images/",
+        "width": 3918,
+        "height": 5877
     },
     {
         "title": "San Francisco Pier",
-        "notes": "Capturing the usual and sunny days on San Francisco",
+        "notes": "Pier 7, looking back down the length of it at the Transamerica Pyramid, benches and lampposts running away on both sides. This was not long after I landed in San Francisco. I had studied in southern California years before, so the state itself was not new, but this end of it was. Third city in a decade, and I spent those first few weeks doing what I always do — walking it with a camera until it started to make sense.",
         "date": "November 23, 2023",
         "credit": "Photo by Ronak Jethwa",
         "src": "36.jpeg",
         "alt": "San Francisco, California",
-        "imgDir": "/images/"
-    }                       
+        "imgDir": "/images/",
+        "width": 3024,
+        "height": 4032
+    },
+    {
+        "title": "California Street, San Francisco",
+        "notes": "San Francisco lines itself up for you if you stand in the right place. California Street from up on Nob Hill, cable car tracks running straight down the middle and the Bay Bridge sitting at the end of them. A long lens stacks it all together and flattens the hill out of the picture entirely — in person you are looking down a very steep slope. Half the street was already in shadow and the other half was lit like it had been staged. A few months in, and the city was still surprising me every time I got above street level.",
+        "date": "February 24, 2024",
+        "credit": "Photo by Ronak Jethwa",
+        "src": "37.jpeg",
+        "alt": "Looking east down California Street toward the Bay Bridge from Nob Hill, San Francisco",
+        "imgDir": "/images/",
+        "width": 4000,
+        "height": 6000
+    },
+    {
+        "title": "Baker Beach, San Francisco",
+        "notes": "You can see the Golden Gate from most of this city, but Baker Beach is where you get the whole span at once, with the headlands stacked up behind it and a stretch of sand to wait on while the light comes around. Someone had pitched a small tent near the waterline. Someone else was standing ankle deep in the surf with their back to all of it. Neither of them looked at the bridge once the entire time I was there, which is what living somewhere eventually does to a landmark. I had been here six months and had not got there yet.",
+        "date": "May 4, 2024",
+        "credit": "Photo by Ronak Jethwa",
+        "src": "38.jpeg",
+        "alt": "The Golden Gate Bridge at golden hour seen from Baker Beach, San Francisco",
+        "imgDir": "/images/",
+        "width": 3785,
+        "height": 5677
+    },
+    {
+        "title": "Stinson Beach, California",
+        "notes": "Stinson Beach, an hour north of the city if the road over Mount Tamalpais treats you well. The fog had caught on the ridge behind the beach and the sun was coming through it sideways, which turned everything gold and pressed the hills flat into layers. The old fence posts were already there, running down toward the water, and all I really did was line up behind them. Most of the photographs I like best are like that — the composition was already sitting there and my only job was to not get in its way.",
+        "date": "June 1, 2024",
+        "credit": "Photo by Ronak Jethwa",
+        "src": "39.jpeg",
+        "alt": "Fence posts along Stinson Beach at sunset with a fog-covered ridge behind",
+        "imgDir": "/images/",
+        "width": 3979,
+        "height": 5969
+    },
+    {
+        "title": "Sunset at Stinson Beach",
+        "notes": "Two minutes after the last frame. The sun dropped just far enough to take everyone down to silhouette — the pair standing by the posts, two more walking the waterline further along. Once the faces go you stop reading it as people and start reading it as shapes on a beach. That is usually the point where I put the camera down and just watch, and it is usually the frame I end up keeping.",
+        "date": "June 1, 2024",
+        "credit": "Photo by Ronak Jethwa",
+        "src": "40.jpeg",
+        "alt": "Silhouetted figures on Stinson Beach under a golden sunset",
+        "imgDir": "/images/",
+        "width": 4000,
+        "height": 6000
+    },
+    {
+        "title": "Mount Tamalpais, California",
+        "notes": "Ridgecrest Boulevard on Mount Tamalpais in late August, with the entire Pacific buried under fog. You climb up through the grey for twenty minutes and then all at once you are above it, the fog sitting flat to the horizon like someone put a lid on the ocean. The grass had gone completely gold, the way it does out here by then. A single car came around the bend while I was set up, which was lucky, because without it there is nothing in the frame to tell you how big any of this is. I spent two years in Washington driving at mountains, and that habit came south with me.",
+        "date": "August 27, 2024",
+        "credit": "Photo by Ronak Jethwa",
+        "src": "41.jpeg",
+        "alt": "A car on Ridgecrest Boulevard above the fog layer on Mount Tamalpais, Marin County, California",
+        "imgDir": "/images/",
+        "width": 4000,
+        "height": 6000
+    },
+    {
+        "title": "Half Dome, Yosemite National Park",
+        "notes": "You come around the bend, the pines part, and Half Dome is just there, framed for you, with a double yellow line running your eye straight into it. I had been looking at that rock all day from other angles, but this is the version you actually see first — through a windshield, from a road. Every photograph of this thing is one somebody has already taken, which stopped bothering me a long time ago. You do not pull over for an original angle. You pull over because it is Half Dome.",
+        "date": "August 20, 2025",
+        "credit": "Photo by Ronak Jethwa",
+        "src": "42.jpeg",
+        "alt": "Half Dome framed by pines above a curving road in Yosemite National Park, California",
+        "imgDir": "/images/",
+        "width": 4000,
+        "height": 6000
+    },
+    {
+        "title": "Tokyo Metro, Japan",
+        "notes": "Tokyo had been on my bucket list for years and I finally got there sideways — a layover on the way to India that I stretched out into four days and three nights. I went for all of it: the food, the architecture, the culture, the whole way of life that everybody online will not stop talking about. This is an ordinary weekday platform. Everyone lined up exactly where the doors were going to open, nobody drifting, nobody jockeying for position. I dragged the shutter to let the train blur through and keep the people still, which is close to how the city actually feels — moving very fast around a set of very calm rules.",
+        "date": "December 15, 2025",
+        "credit": "Photo by Ronak Jethwa",
+        "src": "43.jpeg",
+        "alt": "Commuters waiting on a Tokyo Metro platform as a train blurs past",
+        "imgDir": "/images/",
+        "width": 6000,
+        "height": 4000
+    },
+    {
+        "title": "Nakamise-dori, Asakusa, Tokyo",
+        "notes": "Nakamise-dori, the street that runs from the Kaminarimon up to the Hozomon gate at Senso-ji. It has been a market street for something like three hundred years and it is still doing exactly the same job: snacks, souvenirs, paper fortunes, and a great deal of foot traffic. I shot it long so the whole street compresses down into the gate at the end of it. Three centuries of feeding people, and it earned every one of the several trips I made back to it.",
+        "date": "December 15, 2025",
+        "credit": "Photo by Ronak Jethwa",
+        "src": "44.jpeg",
+        "alt": "Nakamise-dori shopping street leading to the Hozomon gate at Senso-ji, Asakusa, Tokyo",
+        "imgDir": "/images/",
+        "width": 4000,
+        "height": 6000
+    },
+    {
+        "title": "Five-Storied Pagoda, Senso-ji, Tokyo",
+        "notes": "Senso-ji's pagoda, shot from inside a doorway on the far side of the courtyard. A good part of why I came to Tokyo was the architecture, and this is the reason why — the building I was standing in framed the one I was photographing, and I did not have to do anything clever about it. December had stripped the tree beside it back to bare branches except for one ginkgo that had not let go yet, about the only colour in the scene that was not red, grey or timber. Frames like this are mostly patience: you find the opening, then wait for the courtyard to hand you a second where nobody is standing in it.",
+        "date": "December 15, 2025",
+        "credit": "Photo by Ronak Jethwa",
+        "src": "45.jpeg",
+        "alt": "The five-storied pagoda at Senso-ji framed through a temple doorway, Asakusa, Tokyo",
+        "imgDir": "/images/",
+        "width": 4000,
+        "height": 6000
+    },
+    {
+        "title": "Hozomon Gate, Senso-ji, Tokyo",
+        "notes": "The Hozomon gate with the big lantern hanging underneath it and New Year decorations strung out overhead. Cold, bright, and completely packed, which as far as I could tell is the normal state of Asakusa at more or less any hour. I gave up waiting for a gap in the crowd about ten minutes in and decided the crowd was the point. The life of the place was half of what I had come for.",
+        "date": "December 16, 2025",
+        "credit": "Photo by Ronak Jethwa",
+        "src": "46.jpeg",
+        "alt": "The Hozomon gate and New Year decorations above Nakamise-dori, Asakusa, Tokyo",
+        "imgDir": "/images/",
+        "width": 3024,
+        "height": 4032
+    },
+    {
+        "title": "Sushi Counter, Tokyo",
+        "notes": "Ten seats at most, one chef working directly in front of you with nothing between the two of you but the case. Family crests tiled across the wall behind him, an old terracotta floor, and the whole room about the width of a hallway. Rooms like this one were the entire reason I detoured through Tokyo. Not the landmarks — small places doing a single thing carefully for a very long time. Four days was nowhere near enough.",
+        "date": "December 16, 2025",
+        "credit": "Photo by Ronak Jethwa",
+        "src": "47.jpeg",
+        "alt": "A chef at work behind a small sushi counter in Tokyo",
+        "imgDir": "/images/",
+        "width": 4000,
+        "height": 6000
+    }
 ]

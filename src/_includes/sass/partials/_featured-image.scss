@@ -7,6 +7,14 @@
     padding-left: 1.5rem;
     padding-right: 1.5rem;
 
+    .showcase-img {
+        width: auto;
+        height: auto;
+        max-width: 100%;
+        // keeps tall portraits from towering over the viewport
+        max-height: 80vh;
+    }
+
     // .showcase-img {
     //     object-fit: cover;
     //     /* object-fit: contain; this is best but causes letterboxing" */

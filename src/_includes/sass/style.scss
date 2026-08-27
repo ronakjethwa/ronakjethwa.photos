@@ -189,6 +189,7 @@ h2, .h2 {
 }
 
 .main-container {
+    max-width: 1100px;
     margin: 3rem auto 2rem auto;
 }
 
@@ -229,9 +230,6 @@ h2, .h2 {
         }
     }
 
-    header .nav-main .nav-list li {
-        margin: 0 .75rem;
-    }
 }
  
  @media screen and (max-width: 650px) {
@@ -247,8 +245,10 @@ h2, .h2 {
     
     .featured-img {
         .showcase-img {
-            height: 65vh;
-            min-width: 100%;
+            width: auto;
+            max-width: 100%;
+            height: auto;
+            max-height: 70vh;
         }
     }
  }
@@ -269,17 +269,6 @@ h2, .h2 {
  
 @media screen and (max-width: 450px) {
     header {
-        .nav-main {
-            flex-direction: column;
-            justify-content: flex-start;
-            align-items: flex-start;
-
-            .nav-list {
-                li {
-                    margin: 0 .5rem;
-                }
-            }
-        }
     }
 
     .gallery {
@@ -323,21 +312,11 @@ h2, .h2 {
         }
     }
 
-    header .nav-main .nav-list .link {
-        padding: 10px;
-    }
  }
  
 /* Moto G4 width width=360px which Lighthouse runs audit on */
 @media screen and (max-width: 375px) {
     header {
-        .nav-main {
-            .nav-list {
-                .link {
-                    padding: .7rem 3px;
-                }
-            }
-        }
     }
     
     .featured-img {
@@ -363,12 +342,5 @@ h2, .h2 {
 
 @media screen and (max-width: 350px) {
     header {
-        .nav-main {
-            .nav-list {
-                .link {
-                    padding: .6rem 2px;
-                }
-            }
-        }
     }
 }

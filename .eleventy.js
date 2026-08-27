@@ -18,6 +18,7 @@ module.exports = (eleventyConfig) => {
     markdownTemplateEngine: "njk";
 
     // Perform manual passthrough file copy to include directories in the build output _site
+    eleventyConfig.addPassthroughCopy("./src/robots.txt");
     eleventyConfig.addPassthroughCopy("./src/images");
     eleventyConfig.addPassthroughCopy("./src/photos");
     eleventyConfig.addPassthroughCopy("./src/css");
@@ -59,6 +60,16 @@ module.exports = (eleventyConfig) => {
     // Configure outgoing Pexels anchor elements in a template paried shortcode
     eleventyConfig.addPairedShortcode("link", (href, cls="image-link", rel="noopener", target="_blank", btnTxt="Pexels") => {
         return `<a class="${cls}" href="${href}" rel="${rel}" target="${target}">${btnTxt}</a>`;
+    });
+
+    // The respimg plugin hardcodes loading="lazy" on every image, which also lazy-loads
+    // the LCP image. Make the FIRST image on each page eager and high priority.
+    eleventyConfig.addTransform("eagerLcpImage", function (content) {
+        if (!(this.page.outputPath || "").endsWith(".html")) return content;
+        return content.replace(
+            'loading="lazy"',
+            'loading="eager" fetchpriority="high" decoding="async"'
+        );
     });
 
     // get the current year to be placed in the footer

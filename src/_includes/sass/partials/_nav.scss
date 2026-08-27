@@ -1,72 +1,13 @@
 header {
-    .nav-main {
-        margin: 1rem auto 0 auto;
-        max-width: 1100px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding: .9rem 1.5rem;
-
-        a {
-            &:hover {
-                background: rgb(233, 233, 233);
-                text-decoration: none;
-            }
-        }
-
-        .nav-list {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            padding-left: 0;
-            list-style: none;
-            border-top: 1px solid lightgray;
-            border-bottom: 1px solid lightgray;
-            width: 100%;
-
-            li {
-                margin: 0 1rem;
-            }
-            
-            a {
-                &:hover {
-                    background: rgb(233, 233, 233);
-                    background: rgb(237, 237, 237);
-                    text-decoration: none;
-                }
-            }
-
-            .link {
-                color: #212121;
-                padding: .8rem .75rem;
-                margin: 0 .4rem;
-                font-size: 16px;
-                font-size: clamp(1.0625rem, 4vw, 1.2rem);
-                text-decoration: none;
-                display: block;
-
-                &:first-child {
-                    margin-left: 0;
-                }
-            }
-        }
-
-        .home-button {
-            text-decoration: none;
-            color: #212121;
-            padding-right: .5rem;
-            font-size: 24px;
-            font-size: clamp(1.3rem, 4vw, 1.5rem);
-            font-weight: 500;
-        }
-    }
 
     .intro {
         display: flex;
         justify-content: space-between;
-        margin: 2rem auto 1rem auto;
+        align-items: flex-start;
+        margin: 2rem auto 0 auto;
         max-width: 1100px;
-        padding: 0 1.5rem;
+        padding: 0 1.5rem 1.25rem 1.5rem;
+        border-bottom: 1px solid lightgray;
 
         div {
             p {
@@ -83,6 +24,25 @@ header {
             font-size: clamp(26px, 4vw, 28px);
             color: #222;
             margin-bottom: 14px;
+        }
+
+        .intro-links {
+            display: flex;
+            align-items: center;
+            gap: 1.25rem;
+            height: fit-content;
+            height: -moz-fit-content;
+        }
+
+        .nav-link {
+            color: #212121;
+            text-decoration: none;
+            white-space: nowrap;
+            font-size: clamp(1.0625rem, 4vw, 1.2rem);
+
+            &:hover {
+                text-decoration: underline;
+            }
         }
 
         .about-me {
