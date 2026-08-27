@@ -1,16 +1,13 @@
 const CleanCSS = require("clean-css");
-const { minify } = require("terser");
 const metagen = require("eleventy-plugin-metagen");
 const eleventyImg = require("@11ty/eleventy-img");
 const generateImage = eleventyImg.default;
 const { generateHTML } = eleventyImg;
 const path = require("path");
-const eleventyNavigation = require("@11ty/eleventy-navigation");
 
 module.exports = (eleventyConfig) => {
    
     eleventyConfig.addPlugin(metagen);
-    eleventyConfig.addPlugin(eleventyNavigation);
     
     eleventyConfig.setTemplateFormats([
         "md",
@@ -43,31 +40,11 @@ module.exports = (eleventyConfig) => {
         return new CleanCSS({}).minify(code).styles;
     });
 
-    // Create terser JS Minifier async filter (Nunjucks)
-    eleventyConfig.addNunjucksAsyncFilter("jsmin", async function (
-        code,
-        callback
-    )   {
-        try {
-            const minified = await minify(code);
-            callback(null, minified.code);
-        } catch (err) {
-            console.log(`Terser error: ${err}`);
-            // Fail gracefully
-            callback(null, code);
-        }
-    });
-
     // Responsive images via @11ty/eleventy-img.
-    //
-    // Replaces eleventy-plugin-sharp-respimg, which bundled its own Eleventy
-    // 1.0.2 (the source of most of the repo's dependabot alerts) and fired
-    // sharp without awaiting it, so Eleventy could exit before the files were
-    // written. Builds only worked because the variants were committed.
-    //
     // filenameFormat keeps the existing `<name>-<width>.<format>` scheme, so
     // every image URL already in the wild stays valid.
     const IMG_WIDTHS = [320, 480, 640, 1024];
+
     // Quality scales are NOT comparable across formats. At a shared 78, WebP came
     // out larger than the JPEG and AVIF larger still -- and since <source> wins the
     // <picture> negotiation, browsers downloaded the biggest file. Tuned per format.

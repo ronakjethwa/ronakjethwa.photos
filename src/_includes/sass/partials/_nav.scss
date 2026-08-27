@@ -25,7 +25,10 @@ header {
             justify-content: space-between;
             // stretch so the name and the buttons occupy the same vertical band
             align-items: stretch;
-            gap: 1rem;
+            // wrap rather than squeeze: on very narrow phones the buttons drop
+            // to their own row instead of forcing the name onto two lines
+            flex-wrap: wrap;
+            gap: .75rem 1rem;
         }
 
         .home-about {
@@ -36,6 +39,8 @@ header {
         .home-button {
             display: flex;
             align-items: center;
+            // never let the name break across two lines
+            white-space: nowrap;
             font-size: 28px;
             font-size: clamp(26px, 4vw, 28px);
             color: #222;
@@ -64,6 +69,24 @@ header {
             &:hover {
                 background: #1a1f24;
             }
+        }
+    }
+}
+
+// On phones two full-size buttons crowd the name onto a second line.
+@media screen and (max-width: 560px) {
+    header .intro {
+        .home-button {
+            font-size: 22px;
+        }
+
+        .intro-links {
+            gap: .5rem;
+        }
+
+        .header-btn {
+            padding: .4rem .7rem;
+            font-size: .95rem;
         }
     }
 }
