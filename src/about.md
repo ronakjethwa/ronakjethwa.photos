@@ -1,9 +1,8 @@
 ---
 title: About - Ronak Jethwa's Photo Gallery
-meta_desc: A page about Ronak Jethwa, and photography. This template is currently the default version so add your own about me page info here.
-url: https://ronakjethwa.photos/about
-img: /images/highway-water-large.jpg
-alt: Terrace outside shop window with green plants and pink tree on night street
+meta_desc: Ronak Jethwa on photography, and the places behind the pictures.
+img: /images/36-1024.jpeg
+alt: Pier 7 and the San Francisco skyline
 heading: About
 permalink: "/about/"
 layout: main.njk
@@ -13,12 +12,18 @@ layout: main.njk
 
 # {{ heading }}
 
-👋 Hi, I'm {{ site.author.firstName }} {{ site.author.lastName}}. I am currently based out of San Francisco, California and love capturing moments.
+👋 Hi, I'm {{ site.author.firstName }} {{ site.author.lastName }}.
 
-My favorite subjects include breathtaking landscapes, candid street photography, and the intricate details of nature. I believe every photograph tells a story, and I strive to convey narratives through a different lens.
+This site is just my photography. It's not a job and it's not a portfolio — I like taking pictures and I wanted somewhere to keep them.
 
-You can read more about me at <a href="{{ site.author.dotcom }}" target="_blank">https://ronakjethwa.com</a>. Feel free to email on <a href="mailto:{{ site.author.email }}" target="_blank">{{ site.author.email }}</a> if you want to chat.
+I grew up in Gujarat and have moved around a lot since. Southern California, then Boston, then Seattle, and now San Francisco. Most of what's here comes from those places, plus a few trips.
 
-You can also find me on <a href="{{ site.socials.twitter }}" target="_blank">Twitter</a>, <a href="{{ site.socials.instagram }}" target="_blank">Instagram</a> or <a href="{{ site.socials.github}}" target="_blank">GitHub</a>.
+I love a good sunrise and will get up at a stupid hour for one.
+
+Some of these were taken on a Sony Alpha, plenty of the older ones on a phone. One thing I'm sure of though: it's never about the camera. It's about the shot.
+
+<h2 id="contact-me">Elsewhere</h2>
+
+There's more about me at <a href="{{ site.author.dotcom }}" target="_blank">ronakjethwa.com</a>, which is the more serious side of things. If you want to chat about any of this, I'm at <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a>.
 
 </div>

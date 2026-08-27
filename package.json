@@ -4,7 +4,9 @@
   "description": "A photo gallery starter kit built with the static site generator Eleventy",
   "main": ".eleventy.js",
   "scripts": {
-    "build": "npm-run-all build:*",
+    "build": "npm-run-all build:sass build:eleventy",
+    "postbuild": "node scripts/a11y-check.js",
+    "check:a11y": "node scripts/a11y-check.js",
     "start": "npm-run-all watch:*",
     "dev": "npm-run-all build:sass --parallel watch:*",
     "build:eleventy": "eleventy",
@@ -38,10 +40,10 @@
   "dependencies": {
     "@11ty/eleventy": "^3.0.0",
     "@11ty/eleventy-cache-assets": "^2.3.0",
+    "@11ty/eleventy-img": "^7.0.0",
     "clean-css": "^4.2.3",
     "eclint": "^2.1.0",
     "eleventy-plugin-metagen": "^1.7.11",
-    "eleventy-plugin-sharp-respimg": "^1.3.7",
     "npm-run-all": "^4.1.5",
     "sass": "^1.39.0",
     "terser": "^5.14.2"

@@ -9,3 +9,8 @@ node_modules
 
 # Eleventy cached API results
 .cache
+
+# Generated image variants (@11ty/eleventy-img writes these into _site at build time)
+src/images/*-[0-9]*.jpeg
+src/images/*-[0-9]*.webp
+src/images/*-[0-9]*.avif

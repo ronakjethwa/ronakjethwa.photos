@@ -1,96 +1,61 @@
-header .nav-main {
-  margin: 1rem auto 0 auto;
-  max-width: 1100px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 0.9rem 1.5rem;
-}
-header .nav-main a:hover {
-  background: #e9e9e9;
-  text-decoration: none;
-}
-header .nav-main .nav-list {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-left: 0;
-  list-style: none;
-  border-top: 1px solid lightgray;
-  border-bottom: 1px solid lightgray;
-  width: 100%;
-}
-header .nav-main .nav-list li {
-  margin: 0 1rem;
-}
-header .nav-main .nav-list a:hover {
-  background: #e9e9e9;
-  text-decoration: none;
-}
-header .nav-main .nav-list .link {
-  color: #212121;
-  padding: 0.8rem 0.75rem;
-  margin: 0 0.4rem;
-  font-size: 16px;
-  font-size: clamp(1.0625rem, 4vw, 1.2rem);
-  text-decoration: none;
-  display: block;
-}
-header .nav-main .nav-list .link:first-child {
-  margin-left: 0;
-}
-header .nav-main .home-button {
-  text-decoration: none;
-  color: #212121;
-  padding-right: 0.5rem;
-  font-size: 24px;
-  font-size: clamp(1.3rem, 4vw, 1.5rem);
-  font-weight: 500;
-}
 header .intro {
+  display: block;
+  margin: 2rem auto 0 auto;
+  max-width: 1100px;
+  padding: 0 1.5rem 1.25rem 1.5rem;
+  position: relative;
+}
+header .intro::after {
+  content: "";
+  position: absolute;
+  left: 1.5rem;
+  right: 1.5rem;
+  bottom: 0;
+  border-bottom: 1px solid lightgray;
+}
+header .intro .intro-top {
   display: flex;
   justify-content: space-between;
-  margin: 2rem auto 1rem auto;
-  max-width: 1100px;
-  padding: 0 1.5rem;
+  align-items: stretch;
+  gap: 1rem;
 }
-header .intro div p {
+header .intro .home-about {
   color: #333;
-}
-header .intro div:first-child {
-  margin-right: 2rem;
+  margin: 14px 0 0 0;
 }
 header .intro .home-button {
-  display: block;
+  display: flex;
+  align-items: center;
   font-size: 28px;
   font-size: clamp(26px, 4vw, 28px);
   color: #222;
-  margin-bottom: 14px;
 }
-header .intro .about-me {
+header .intro .intro-links {
+  display: flex;
+  align-items: stretch;
+  gap: 1.25rem;
+  height: fit-content;
+  height: -moz-fit-content;
+}
+header .intro .header-btn {
+  display: flex;
+  align-items: center;
   border: 1px solid #111;
   padding: 0.5rem 1rem;
   text-decoration: none;
-  height: fit-content;
-  height: -moz-fit-content;
   border-radius: 0.5rem;
   background: #1e262b;
   color: #fff;
   font-weight: 400;
   white-space: nowrap;
 }
-header .intro .about-me:hover {
+header .intro .header-btn:hover {
   background: #1a1f24;
 }
 
 .main-gallery {
   max-width: 1100px;
   margin: 3rem auto 0 auto;
-}
-
-.ft-h1 {
-  text-align: center;
-  margin-bottom: 4.25rem;
 }
 
 .gallery-list {
@@ -142,17 +107,13 @@ header .intro .about-me:hover {
   list-style: none;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr));
-  gap: 3px;
-  max-width: 1100px;
+  gap: 20px;
   margin: 1rem auto 3rem auto;
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
 }
 .image-grid .image-container {
   height: 20rem;
   overflow: hidden;
   border-radius: 2px;
-  margin: 10px;
 }
 .image-grid .image-container a .grid-image {
   object-fit: cover;
@@ -180,6 +141,12 @@ header .intro .about-me:hover {
   align-items: center;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
+}
+.featured-img .showcase-img {
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 80vh;
 }
 .featured-img .prev-next {
   display: flex;
@@ -228,13 +195,9 @@ header .intro .about-me:hover {
   padding-right: 1.5rem;
 }
 
-.about-me-content a {
-  color: #000000;
-  text-decoration: underline;
-}
-
 .contact-form {
   display: flex;
+  display: -webkit-flex;
   flex-direction: column;
   max-width: 60ch;
 }
@@ -494,35 +457,16 @@ h2, .h2 {
 .image-description {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  align-items: flex-start;
+  text-align: left;
   margin: 1.5rem auto 0 auto;
   padding-left: 1rem;
   padding-right: 1rem;
-  max-width: 70vw;
+  max-width: 68ch;
 }
 .image-description h1 {
   margin-bottom: 0.8rem;
   text-align: center;
-}
-
-.page-banner {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  margin: 0 auto 1em auto;
-  max-width: 1100px;
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
-  color: #212141;
-}
-.page-banner p {
-  font-size: 1rem;
-  font-size: clamp(1.0625rem, 3vw, 1.2rem);
-}
-.page-banner h1 {
-  margin-bottom: 0.75rem;
 }
 
 .about-me-content .about-socials {
@@ -551,6 +495,7 @@ h2, .h2 {
 }
 
 .main-container {
+  max-width: 1100px;
   margin: 3rem auto 2rem auto;
 }
 
@@ -578,10 +523,6 @@ h2, .h2 {
   .gallery-item a .gallery-photo {
     height: 90vh;
   }
-
-  header .nav-main .nav-list li {
-    margin: 0 0.75rem;
-  }
 }
 @media screen and (max-width: 650px) {
   .gallery-item a .gallery-photo {
@@ -591,29 +532,13 @@ h2, .h2 {
   }
 
   .featured-img .showcase-img {
-    height: 65vh;
-    min-width: 100%;
-  }
-}
-@media screen and (max-width: 565px) {
-  .page-banner h1 {
-    text-align: left;
-  }
-
-  .main-gallery h1 {
-    padding: 0 1rem;
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    max-height: 70vh;
   }
 }
 @media screen and (max-width: 450px) {
-  header .nav-main {
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-  }
-  header .nav-main .nav-list li {
-    margin: 0 0.5rem;
-  }
-
   .gallery .gallery-list {
     grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr));
   }
@@ -645,17 +570,9 @@ h2, .h2 {
   .gallery .gallery-list {
     grid-template-columns: repeat(auto-fill, minmax(14rem, 1fr));
   }
-
-  header .nav-main .nav-list .link {
-    padding: 10px;
-  }
 }
 /* Moto G4 width width=360px which Lighthouse runs audit on */
 @media screen and (max-width: 375px) {
-  header .nav-main .nav-list .link {
-    padding: 0.7rem 3px;
-  }
-
   .featured-img {
     margin: 0;
     padding: 0;
@@ -672,12 +589,7 @@ h2, .h2 {
   .image-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(14rem, 1fr));
-    gap: 3px;
-  }
-}
-@media screen and (max-width: 350px) {
-  header .nav-main .nav-list .link {
-    padding: 0.6rem 2px;
+    gap: 20px;
   }
 }
 

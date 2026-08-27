@@ -2,22 +2,14 @@
 eleventyNavigation:
   key: Home
   order: 1
-heading: Photo Gallery
-description: Travel. Nature. Architecture. Life.
 layout: main.njk
 title: Ronak Jethwa's Photo Gallery
 meta_desc: Ronak Jethwa's Photo Gallery
-url: https://ronakjethwa.photos/gallery
-img: /images/01.jpg
-alt: Sunset at Eiffel Tower for across the lawn
+img: /images/01-1024.jpeg
+alt: Sunset at the Eiffel Tower, Paris
 cardType: summary_large_image
 ---
 
-<style>body{margin:0;padding:0;font-family:sans-serif;}</style>
-
-<div class="page-banner">
-  <h1>{{ heading }}</h1>
-  <p>{{ description }}</p>
-</div>
+<h1 class="sr-only">{{ title }}</h1>
 
 {% include "home-gallery.njk" %}

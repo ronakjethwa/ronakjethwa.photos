@@ -4,8 +4,8 @@
         {% metagen 
             title=title,
             desc=meta_desc,
-            url=url,
-            img=url + img,
+            url=site.url + page.url,
+            img=site.url + img,
             img_alt=alt,
             twitter_card_type=cardType,
             twitterHandle=site.author.twitterHandle,
