@@ -5,6 +5,8 @@
   "main": ".eleventy.js",
   "scripts": {
     "build": "npm-run-all build:sass build:eleventy",
+    "postbuild": "node scripts/a11y-check.js",
+    "check:a11y": "node scripts/a11y-check.js",
     "start": "npm-run-all watch:*",
     "dev": "npm-run-all build:sass --parallel watch:*",
     "build:eleventy": "eleventy",
