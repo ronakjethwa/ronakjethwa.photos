@@ -14,7 +14,7 @@ cardType: summary_large_image
             title=image.title,
             desc=image.title + " " + site.pageMetadata.featured.content,
             url=site.url + page.url,
-            img=site.url + "/images/" + (image.src | variant),
+            img=site.url + "/images/" + (image.src | variant(image.width)),
             img_alt=image.alt,
             twitter_card_type=cardType,
             twitterHandle=site.author.twitterHandle,
@@ -48,18 +48,12 @@ cardType: summary_large_image
         <main id="main" class="main-container" role="main">
             <div class="featured-img">
                 <div class="image-container">
-                    {% respimg 
+                    {% respimg
                         src=image.src,
                         alt=image.alt,
-                        inputDir="./src",
-                        imgDir=image.imgDir,
-                        widths=[320, 480, 640, 1024],
-                        quality=78,
                         sizes="(min-width: 1072px) 1024px, 100vw",
                         className="showcase-img",
-                        width=image.width,
-                        height=image.height,
-                        loading="lazy"
+                        eager=true
                     %}
                     <div class="image-description">
                         <h1 class="h2">{{ image.title }}</h1>

@@ -1,13 +1,15 @@
 const CleanCSS = require("clean-css");
 const { minify } = require("terser");
 const metagen = require("eleventy-plugin-metagen");
-const respimg = require("eleventy-plugin-sharp-respimg");
+const eleventyImg = require("@11ty/eleventy-img");
+const generateImage = eleventyImg.default;
+const { generateHTML } = eleventyImg;
+const path = require("path");
 const eleventyNavigation = require("@11ty/eleventy-navigation");
 
 module.exports = (eleventyConfig) => {
    
     eleventyConfig.addPlugin(metagen);
-    eleventyConfig.addPlugin(respimg);
     eleventyConfig.addPlugin(eleventyNavigation);
     
     eleventyConfig.setTemplateFormats([
@@ -21,8 +23,9 @@ module.exports = (eleventyConfig) => {
     eleventyConfig.addPassthroughCopy("./src/robots.txt");
     // Ship only the generated responsive variants. The full-size originals stay in
     // src/images for sharp to read at build time, but never need to reach the CDN.
-    eleventyConfig.addPassthroughCopy("./src/images/*-[0-9]*.jpeg");
-    eleventyConfig.addPassthroughCopy("./src/images/*-[0-9]*.webp");
+    // NOTE: no passthrough for images. @11ty/eleventy-img writes the resized
+    // variants straight into _site/images at build time. The full-size
+    // originals stay in src/images as the source and never ship.
     eleventyConfig.addPassthroughCopy("./src/photos");
     eleventyConfig.addPassthroughCopy("./src/css");
     eleventyConfig.addPassthroughCopy("./src/js");
@@ -55,6 +58,47 @@ module.exports = (eleventyConfig) => {
         }
     });
 
+    // Responsive images via @11ty/eleventy-img.
+    //
+    // Replaces eleventy-plugin-sharp-respimg, which bundled its own Eleventy
+    // 1.0.2 (the source of most of the repo's dependabot alerts) and fired
+    // sharp without awaiting it, so Eleventy could exit before the files were
+    // written. Builds only worked because the variants were committed.
+    //
+    // filenameFormat keeps the existing `<name>-<width>.<format>` scheme, so
+    // every image URL already in the wild stays valid.
+    const IMG_WIDTHS = [320, 480, 640, 1024];
+    // Quality scales are NOT comparable across formats. At a shared 78, WebP came
+    // out larger than the JPEG and AVIF larger still -- and since <source> wins the
+    // <picture> negotiation, browsers downloaded the biggest file. Tuned per format.
+    const JPEG_QUALITY = 78;
+    const WEBP_QUALITY = 78;
+    const AVIF_QUALITY = 55;
+
+    eleventyConfig.addAsyncShortcode("respimg", async function (data) {
+        const src = `./src/images/${data.src}`;
+        const metadata = await generateImage(src, {
+            widths: data.widths || IMG_WIDTHS,
+            formats: ["avif", "webp", "jpeg"],
+            outputDir: "./_site/images/",
+            urlPath: "/images/",
+            filenameFormat: (id, imgSrc, width, format) =>
+                `${path.basename(imgSrc, path.extname(imgSrc))}-${width}.${format}`,
+            sharpAvifOptions: { quality: AVIF_QUALITY },
+            sharpWebpOptions: { quality: WEBP_QUALITY },
+            sharpJpegOptions: { quality: JPEG_QUALITY, progressive: true },
+        });
+
+        return generateHTML(metadata, {
+            alt: data.alt,
+            sizes: data.sizes,
+            class: data.className,
+            loading: data.eager ? "eager" : "lazy",
+            decoding: "async",
+            ...(data.eager ? { fetchpriority: "high" } : {}),
+        });
+    });
+
     // Configure image in a template paired shortcode
     eleventyConfig.addPairedShortcode("image", (srcSet, src, alt, sizes="(min-width: 400px) 33.3vw, 100vw") => {
         return `<img srcset="${srcSet}" src="${src}" alt="${alt}" sizes="${sizes}" />`;
@@ -65,20 +109,15 @@ module.exports = (eleventyConfig) => {
         return `<a class="${cls}" href="${href}" rel="${rel}" target="${target}">${btnTxt}</a>`;
     });
 
-    // The respimg plugin hardcodes loading="lazy" on every image, which also lazy-loads
-    // the LCP image. Make the FIRST image on each page eager and high priority.
-    eleventyConfig.addTransform("eagerLcpImage", function (content) {
-        if (!(this.page.outputPath || "").endsWith(".html")) return content;
-        return content.replace(
-            'loading="lazy"',
-            'loading="eager" fetchpriority="high" decoding="async"'
-        );
-    });
-
-    // Map an original filename to its generated variant, e.g. 36.jpeg -> 36-1024.jpeg.
-    // Only variants are deployed, so social images must point at one.
-    eleventyConfig.addFilter("variant", function (src, width) {
-        return String(src).replace(/\.(jpe?g|png)$/i, `-${width || 1024}.jpeg`);
+    // Largest generated variant for a source image, used for og:image.
+    // eleventy-img never upscales, so an image narrower than 1024 has no 1024
+    // variant (32.jpeg is 768px wide, 33.jpeg is 665px). Pick the widest
+    // variant that actually exists for that source.
+    eleventyConfig.addFilter("variant", function (src, sourceWidth) {
+        const base = String(src).replace(/\.(jpe?g|png)$/i, "");
+        const available = IMG_WIDTHS.filter((w) => !sourceWidth || w <= sourceWidth);
+        const width = available.length ? Math.max(...available) : Math.min(...IMG_WIDTHS);
+        return `${base}-${width}.jpeg`;
     });
 
     // get the current year to be placed in the footer

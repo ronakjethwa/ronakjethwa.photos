@@ -5,17 +5,11 @@
             <div class="image-block">
                 <a href="{{ image.title | slug }}" aria-label="Gallery image {{ image.title }}">
                 {% respimg
-                    inputDir="./src",
-                    imgDir="/images/",
-                    widths=[320, 480, 640, 1024],
-                    quality=78,
-                    sizes="(min-width: 1100px) 525px, (min-width: 850px) 50vw, 100vw",
                     src=image.src,
                     alt=image.alt,
-                    width=768,
-                    height=600,
+                    sizes="(min-width: 1100px) 525px, (min-width: 850px) 50vw, 100vw",
                     className="gallery-photo",
-                    loading="lazy"
+                    eager=loop.first
                 %}
                 </a>
                 <div class="block-details">
