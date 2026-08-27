@@ -71,5 +71,7 @@
 [[plugins]]
   package = "@netlify/plugin-sitemap"
   [plugins.inputs]
-    exclude = ["/404.html"]
+    # Paths are relative to the repo root, not URLs: the plugin turns each into a
+    # globby negative against `_site/**/**.html`, so "/404.html" matched nothing.
+    exclude = ["_site/404.html"]
     trailingSlash = true
