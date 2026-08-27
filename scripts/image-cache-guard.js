@@ -18,7 +18,7 @@ const SRC = "src/images";
 const OUT = "_site/images";
 const MANIFEST = path.join(OUT, ".sources.json");
 
-if (!fs.existsSync(OUT)) process.exit(0);          // cold build, nothing cached
+const MODE = process.argv[2] === "--record" ? "record" : "prune";
 
 const isVariant = (f) => /-\d+\.(jpeg|webp|avif)$/.test(f);
 const originals = fs.readdirSync(SRC).filter((f) => !isVariant(f) && /\.(jpe?g|png)$/i.test(f));
@@ -27,6 +27,22 @@ const current = {};
 for (const f of originals) {
     const buf = fs.readFileSync(path.join(SRC, f));
     current[f] = crypto.createHash("sha256").update(buf).digest("hex").slice(0, 16);
+}
+
+// --record runs after the build, once the variants exist, so the manifest
+// always describes what is actually on disk. Writing it before the build meant
+// a cold build exited early and never recorded anything, so the NEXT build saw
+// no manifest and discarded all 522 restored variants.
+if (MODE === "record") {
+    fs.mkdirSync(OUT, { recursive: true });
+    fs.writeFileSync(MANIFEST, JSON.stringify(current, null, 1));
+    console.log(`image cache: recorded ${originals.length} source hashes`);
+    process.exit(0);
+}
+
+if (!fs.existsSync(OUT)) {
+    console.log("image cache: no cached variants to check");
+    process.exit(0);
 }
 
 let previous = {};
@@ -54,7 +70,6 @@ for (const v of fs.readdirSync(OUT)) {
     }
 }
 
-fs.writeFileSync(MANIFEST, JSON.stringify(current, null, 1));
 console.log(
     dropped
         ? `image cache: ${dropped} stale variant(s) dropped, will regenerate`
