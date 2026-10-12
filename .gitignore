@@ -14,3 +14,4 @@ node_modules
 src/images/*-[0-9]*.jpeg
 src/images/*-[0-9]*.webp
 src/images/*-[0-9]*.avif
+.claude/settings.local.json
